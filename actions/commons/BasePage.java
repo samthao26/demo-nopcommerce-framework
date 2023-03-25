@@ -186,7 +186,10 @@ public class BasePage {
 	}
 	public void waitForElementVisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locator)));
-}
+	}	
+	public void wiatForListElementVisible(WebDriver driver, String locator) {
+		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElements(getListWebElement(driver, locator)));
+	}
 	public void waitForElementVisible(WebDriver driver, String locatorType, String...dynamicValues) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
 	}
@@ -200,8 +203,21 @@ public class BasePage {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
 		
 	}
-	public void wiatForListElementVisible(WebDriver driver, String locator) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElements(getListWebElement(driver, locator)));
+	public void  waitForListElementInvisible(WebDriver driver, String locator) {
+		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, locator)));
+	}
+	public void waitForElementPresent(WebDriver driver, String locator) {
+		new WebDriverWait(driver, 30).until(ExpectedConditions.presenceOfElementLocated(getByLocator(locator)));
+	}
+	
+	public void waitForListElementPresent(WebDriver driver, String locator) {
+		new WebDriverWait(driver, 30).until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(locator)));
+	}
+	public boolean waitForPageToBe(WebDriver driver, String pageUrl) {
+		return new WebDriverWait(driver, 30).until(ExpectedConditions.urlToBe(pageUrl));
+	}
+	public boolean waitForElementSelected(WebDriver driver, String locator) {
+		return new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeSelected(getByLocator(locator)));
 	}
 	
 	

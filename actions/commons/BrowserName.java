@@ -1,5 +1,6 @@
 package commons;
 
-public class BrowserName {
+enum BrowserName {
+	CHROME, FIREFOX, EDGE, SAFARI, OPERA
 
 }
