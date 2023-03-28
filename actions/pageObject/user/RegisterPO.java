@@ -23,13 +23,13 @@ public void clickToGenderFemaleRadio() {
 
 public void inputToFristNameTextbox(String firstName) {
 	waitForElementVisible(driver, UserRegisterUI.FIRSTNAME_TEXTBOX);
-	sendkeyToElement(driver, UserRegisterUI.FIRSTNAME_TEXTBOX, firstName);
+	sendkeyToElement(driver, UserRegisterUI.FIRSTNAME_TEXTBOX, "value");
 	
 }
 
 public void inputToLastNameTextbox(String lastName) {
 	waitForElementVisible(driver, UserRegisterUI.LASTNAME_TEXTBOX);
-	sendkeyToElement(driver, UserRegisterUI.LASTNAME_TEXTBOX, lastName);
+	sendkeyToElement(driver, UserRegisterUI.LASTNAME_TEXTBOX, "value");
 }
 
 public void selectDayOfBirthDropdown(String day) {
@@ -78,9 +78,10 @@ public String getRegisteredSucessMessage() {
 	return getTextElement(driver, UserRegisterUI.REGISTER_SUCESS_MESAGER);
 }
 
-public void clickToLogoutLink() {
-	waitForElementClickable(driver, UserRegisterUI.LOGOUT_LINK);
-	clickToElement(driver, UserRegisterUI.LOGOUT_LINK);
+public void clickToLoginLink() {
+	waitForElementClickable(driver, UserRegisterUI.LOGIN_LINK);
+	clickToElement(driver, UserRegisterUI.LOGIN_LINK);
 }
 
 }
+
