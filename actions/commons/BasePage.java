@@ -137,8 +137,8 @@ public class BasePage {
 		element.clear();
 		element.sendKeys(keyValueToSend);
 	}
-	public void getAttributeValue(WebDriver driver, String locator, String attribuName) {
-		getWebElement(driver, locator).getAttribute(attribuName);
+	public String getAttributeValue(WebDriver driver, String locator, String attribuName) {	
+		return getWebElement(driver, locator).getAttribute(attribuName);
 	}
 	public String getTextElement(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).getText();
@@ -149,8 +149,8 @@ public class BasePage {
 	public void getSelectItemInDropdown(WebDriver driver,String locator, String itemValue) {
 		new Select(getWebElement(driver, locator)).selectByVisibleText(itemValue);
 	}
-	public void getSelectOptionInDropdown(WebDriver driver, String locator) {
-		new Select(getWebElement(driver, locator)).getFirstSelectedOption().getText();
+	public String getSelectOptionInDropdown(WebDriver driver, String locator) {
+		return new Select(getWebElement(driver, locator)).getFirstSelectedOption().getText();
 	}
 	
 	public void sleepInSecond(long timeInSecond) {
