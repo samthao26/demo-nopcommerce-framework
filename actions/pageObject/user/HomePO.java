@@ -3,26 +3,29 @@ package pageObject.user;
 import org.openqa.selenium.WebDriver;
 
 import PageUIs.user.UserHomeUI;
+import PageUIs.user.UserMyAccountUI;
 import commons.BasePage;
 
 public class HomePO extends BasePage{
 		WebDriver driver;	
+		
 	public HomePO(WebDriver driver) {
 		this.driver = driver;
 	}
-	public void clickToRegisterLink() {
+	public RegisterPO clickToRegisterLink() {
 		waitForElementClickable(driver, UserHomeUI.REGISTER_LINK);
 		clickToElement(driver, UserHomeUI.REGISTER_LINK);
-		
+		return UserPageGeneratorManager.getRegisterPage(driver);
 	
 	}
-	public void clickToMyAccountLink() {
-		// TODO Auto-generated method stub
-		
+	public CustomerInforPO clickToMyAccountLink() {
+		waitForElementClickable(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
+		clickToElement(driver,  UserMyAccountUI.MY_ACCOUNT_LINK );
+		return UserPageGeneratorManager.getCustomerInforPage(driver);
 	}
 	public boolean isMyAccountLinkDisPlayed() {
-		// TODO Auto-generated method stub
-		return false;
+		waitForElementVisible(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
+		return isElementDisplayed(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
 	}
 	
 }

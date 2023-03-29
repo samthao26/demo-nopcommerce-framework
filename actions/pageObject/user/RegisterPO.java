@@ -23,13 +23,13 @@ public void clickToGenderFemaleRadio() {
 
 public void inputToFristNameTextbox(String firstName) {
 	waitForElementVisible(driver, UserRegisterUI.FIRSTNAME_TEXTBOX);
-	sendkeyToElement(driver, UserRegisterUI.FIRSTNAME_TEXTBOX, "value");
+	sendkeyToElement(driver, UserRegisterUI.FIRSTNAME_TEXTBOX, firstName);
 	
 }
 
 public void inputToLastNameTextbox(String lastName) {
 	waitForElementVisible(driver, UserRegisterUI.LASTNAME_TEXTBOX);
-	sendkeyToElement(driver, UserRegisterUI.LASTNAME_TEXTBOX, "value");
+	sendkeyToElement(driver, UserRegisterUI.LASTNAME_TEXTBOX, lastName);
 }
 
 public void selectDayOfBirthDropdown(String day) {
@@ -47,9 +47,9 @@ public void selectYearOfBirthDropdown(String year) {
 	getSelectItemInDropdown(driver, UserRegisterUI.YEAR_OF_BIRTH_DROPDOWN, year);
 }
 
-public void inputToEmailTextbox(String emailAdress) {
+public void inputToEmailTextbox(String emailAddress) {
 	waitForElementVisible(driver, UserRegisterUI.EMAIL_TEXTBOX);
-	sendkeyToElement(driver, UserRegisterUI.EMAIL_TEXTBOX, emailAdress);
+	sendkeyToElement(driver, UserRegisterUI.EMAIL_TEXTBOX, emailAddress);
 }
 
 public void inputToCompanyNameTextbox(String companyName) {
@@ -78,9 +78,10 @@ public String getRegisteredSucessMessage() {
 	return getTextElement(driver, UserRegisterUI.REGISTER_SUCESS_MESAGER);
 }
 
-public void clickToLoginLink() {
+public LoginPO clickToLoginLink() {
 	waitForElementClickable(driver, UserRegisterUI.LOGIN_LINK);
 	clickToElement(driver, UserRegisterUI.LOGIN_LINK);
+	return UserPageGeneratorManager.getLoginPage(driver);
 }
 
 }

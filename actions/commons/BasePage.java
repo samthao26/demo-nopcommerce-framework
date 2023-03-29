@@ -90,7 +90,7 @@ public class BasePage {
 	}
 	
 	public WebElement getWebElement(WebDriver driver, String locator) {
-		return driver.findElement(byXpath(locator));
+		return driver.findElement(getByLocator(locator));
 	}
 	public List<WebElement>getListWebElement(WebDriver driver, String locator){
 		return driver.findElements(getByLocator(locator));
@@ -101,6 +101,7 @@ public class BasePage {
 	public By getByLocator(String locatorType) {
 		By by = null;
 		if(locatorType.toUpperCase().startsWith("ID=")) {
+			locatorType = locatorType.substring(3);
 			by=By.id(locatorType);
 		}else if(locatorType.toUpperCase().startsWith("CLASS=")) {
 			locatorType = locatorType.substring(6);

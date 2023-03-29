@@ -2,11 +2,20 @@ package pageObject.user;
 
 import org.openqa.selenium.WebDriver;
 
-public class AddressPO {
+import PageUIs.user.UserOrderUI;
+import commons.BasePage;
 
+public class AddressPO extends BasePage {
+	WebDriver driver;
+	
+	public AddressPO (WebDriver driver) {
+		this.driver = driver;
+	}
+	
 	public OrderPO openOderPage(WebDriver driver) {
-		// TODO Auto-generated method stub
-		return null;
+		waitForElementClickable(driver, UserOrderUI.ORDERS_FOOTER_LINK);
+		clickToElement(driver, UserOrderUI.ORDERS_FOOTER_LINK);
+		return UserPageGeneratorManager.getOrderPage(driver);
 	}
 
 }

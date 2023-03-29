@@ -25,7 +25,7 @@ import pageObject.user.ShippingAndReturnPO;
 
 public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	
-@Parameters({"broser", "appUrl"})
+@Parameters({"browser", "appUrl"})
 
 @BeforeClass 
 	public void beforeClass(String browserName, String appUrl) {
@@ -52,19 +52,17 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	registerPage.clickToRegisterButton();
 	Assert.assertEquals(registerPage.getRegisteredSucessMessage(), "Your registration completed");
 	
-registerPage.clickToLoginLink();
+	
 
 }
 @Test
 	public void User_01_Login_To_System() {
-	loginPage = new LoginPO(driver);
+	loginPage = registerPage.clickToLoginLink();
 	loginPage.inputToEmailTextbox(emailAdress);
 	loginPage.inputToPasswordTextbox(userPassword);
-	loginPage.clickToLoginButton();
-	homePage = new HomePO(driver);
+	homePage = loginPage.clickToLoginButton();  
 	Assert.assertTrue(homePage.isMyAccountLinkDisPlayed());
-	homePage.clickToMyAccountLink();
-	customeInforPage = new CustomerInforPO(driver);
+	customeInforPage = homePage.clickToMyAccountLink();
 	Assert.assertTrue(customeInforPage.isFemaleGenderSelected());
 	Assert.assertEquals(customeInforPage.getFirstNameTextboxAttribute(), "Andrea");
 	Assert.assertEquals(customeInforPage.getLastNameTextboxAttribute(), "Hull");
@@ -80,13 +78,11 @@ registerPage.clickToLoginLink();
 @ Test
 	public void User_02_Swith_To_DiffirentPage() {
 	addressPage = customeInforPage.openAddreses(driver);
-	
-	
 	oderPage = addressPage.openOderPage(driver);
 	downloadableProductsPage = oderPage.openDownloadableProductsPage(driver);
 	backInStockSubscriptionsPage= downloadableProductsPage.openBackInStockSubscriptionsPage(driver);
 	rewardPointsPage = backInStockSubscriptionsPage.openRewardPointsPage(driver);
-	changePasswordPage = (ChangePasswordPO) rewardPointsPage.openChangePasswordPage(driver);
+	changePasswordPage = rewardPointsPage.openChangePasswordPage(driver);
 	searchPage = changePasswordPage.openSearchPage(driver);
 	shippingAndReturnPage = searchPage.openShippingAndReturnPage(driver);
 	

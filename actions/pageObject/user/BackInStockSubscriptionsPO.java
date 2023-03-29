@@ -2,11 +2,20 @@ package pageObject.user;
 
 import org.openqa.selenium.WebDriver;
 
-public class BackInStockSubscriptionsPO {
+import PageUIs.user.UserRewardPointsUI;
+import commons.BasePage;
+
+public class BackInStockSubscriptionsPO extends BasePage {
+	WebDriver driver;
+	public BackInStockSubscriptionsPO(WebDriver driver) {
+		this.driver = driver;
+		
+	}
 
 	public RewardPointsPO openRewardPointsPage(WebDriver driver) {
-		// TODO Auto-generated method stub
-		return null;
+		waitForElementClickable(driver, UserRewardPointsUI.REWARD_POITS_IN_SIDE2);
+		clickToElement(driver,  UserRewardPointsUI.REWARD_POITS_IN_SIDE2);
+		return UserPageGeneratorManager.getRewardPointsPage(driver);
 	}
 
 }

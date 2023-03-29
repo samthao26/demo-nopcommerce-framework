@@ -19,8 +19,9 @@ WebDriver driver;
 		waitForElementVisible(driver, UserLoginUI.PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, UserLoginUI.PASSWORD_TEXTBOX, userPassword);
 	}
-	public void clickToLoginButton() {
-		waitForElementInvisible(driver, UserLoginUI.LOGIN_BUTTON);
+	public HomePO clickToLoginButton() {
+		waitForElementClickable(driver, UserLoginUI.LOGIN_BUTTON);
 		clickToElement(driver, UserLoginUI.LOGIN_BUTTON);
+		return UserPageGeneratorManager.getHomePage(driver);
 	}
 }
