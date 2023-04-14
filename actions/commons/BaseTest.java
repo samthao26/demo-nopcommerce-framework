@@ -39,7 +39,7 @@ public class BaseTest {
 		 return driver; 
 	 }
 	 
-	 protected int getRandomNumber() {
-		 return new Random().nextInt(99999);
+	 protected String generateEmail() {
+		 return new Random().nextInt(99999) + "@gmail.com";
 	 }
 }

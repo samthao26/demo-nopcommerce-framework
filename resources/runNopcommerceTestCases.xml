@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite">
-  <test name="Test">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Nopcommerce">
+	<parameter name = "appUrl" value = "https://demo.nopcommerce.com/"/>
+
+  	<test name="Run on FIREFOX">
+  	<parameter name = "browser" value = "Firefox"/>
+  	
     <classes>
-      <class name="pageObject.user.RegisterPO"/>
+      <class name="com.nopcommerce.user.User_00_Registation_Login_Nopcommerce"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

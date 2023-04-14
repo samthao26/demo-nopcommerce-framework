@@ -21,7 +21,7 @@ public void clickToGenderFemaleRadio() {
 	
 }
 
-public void inputToFristNameTextbox(String firstName) {
+public void inputToFirstNameTextbox(String firstName) {
 	waitForElementVisible(driver, UserRegisterUI.FIRSTNAME_TEXTBOX);
 	sendkeyToElement(driver, UserRegisterUI.FIRSTNAME_TEXTBOX, firstName);
 	

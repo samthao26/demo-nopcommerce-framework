@@ -27,5 +27,10 @@ public class HomePO extends BasePage{
 		waitForElementVisible(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
 		return isElementDisplayed(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
 	}
+	public boolean isHomePageSliderDispayed() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
 	
 }
