@@ -30,7 +30,7 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 @BeforeClass 
 	public void beforeClass(String browserName, String appUrl) {
 	driver = getBrowserDriver(browserName, appUrl);
-	emailAdress = "Andrea" + getRandomNumber() + "@hotline.com";
+	emailAdress = generateEmail();
 	userPassword = "12345678";
 	
 }
@@ -40,7 +40,7 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	homePage.clickToRegisterLink();
 	registerPage = new RegisterPO(driver);
 	registerPage.clickToGenderFemaleRadio();
-	registerPage.inputToFristNameTextbox("Andrea");
+	registerPage.inputToFirstNameTextbox("Andrea");
 	registerPage.inputToLastNameTextbox("Hull");
 	registerPage.selectDayOfBirthDropdown("1");
 	registerPage.selectMonthOfBirthDropdown("March");

@@ -28,8 +28,8 @@ public class HomePO extends BasePage{
 		return isElementDisplayed(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
 	}
 	public boolean isHomePageSliderDispayed() {
-		// TODO Auto-generated method stub
-		return false;
+		waitForElementVisible(driver, UserHomeUI.HOME_NIVO_SILDER);
+		return isElementDisplayed(driver, UserHomeUI.HOME_NIVO_SILDER);
 	}
 	
 	

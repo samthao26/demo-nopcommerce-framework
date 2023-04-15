@@ -84,5 +84,28 @@ public LoginPO clickToLoginLink() {
 	return UserPageGeneratorManager.getLoginPage(driver);
 }
 
+public String getErrorMessageByFieldName(String fileName) {
+	waitForElementVisible(driver, UserRegisterUI.ERROR_MESSAGE_BY_FILE_NAME, fileName);
+	return getTextElement(driver, UserRegisterUI.ERROR_MESSAGE_BY_FILE_NAME, fileName);
+}
+
+public RegisterPO clickToRegisterLink() {
+	waitForElementClickable(driver, UserRegisterUI.REGISTER_LINK);
+	clickToElement(driver,UserRegisterUI.REGISTER_LINK);
+	return UserPageGeneratorManager.getRegisterPage(driver);
+	
+}
+
+public Object getErrorMessage() {
+	waitForElementVisible(driver, UserRegisterUI.ERROR_MESSAGE_VALIDATION);
+	return getTextElement(driver, UserRegisterUI.ERROR_MESSAGE_VALIDATION);
+}
+
+public HomePO clickToContinueButton() {
+	waitForElementClickable(driver, UserRegisterUI.CONTINUE_BUTTON);
+	clickToElement(driver, UserRegisterUI.CONTINUE_BUTTON);
+	return UserPageGeneratorManager.getHomePage(driver);
+}
+
 }
 

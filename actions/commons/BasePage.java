@@ -144,6 +144,9 @@ public class BasePage {
 	public String getTextElement(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).getText();
 	}
+	public String getTextElement(WebDriver driver, String locatorType, String...dynamicValues) {
+		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText();
+	}
 	public void getElementSize(WebDriver driver, String locator) {
 		getListWebElement(driver, locator).size();
 	}
