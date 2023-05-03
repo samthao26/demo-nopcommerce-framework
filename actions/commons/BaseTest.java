@@ -3,6 +3,9 @@ package commons;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +19,13 @@ public class BaseTest {
 	 WebDriver driver;
 	 String projectPath = System.getProperty("user.dir");
 	 String osName = System.getProperty("os.name");
+	 protected final Log log; 
+	 protected BaseTest() {
+		 BasicConfigurator.configure();
+		 log = LogFactory.getLog(getClass());
+		 
+	 }
+	
 	 
 	 protected WebDriver getBrowserDriver(String browserName, String appUrl) {
 		 BrowserName browser = BrowserName.valueOf(browserName.toUpperCase());

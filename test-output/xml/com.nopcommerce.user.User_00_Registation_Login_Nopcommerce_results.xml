@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on FIREFOX"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.949">
+  <properties />
+  
+  
+            <testcase name="User_00_Register_TO_System" time="2.949" classname="com.nopcommerce.user.User_00_Registation_Login_Nopcommerce" />
+      
+</testsuite>

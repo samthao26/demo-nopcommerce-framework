@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T09:07:19Z" name="Nopcommerce" finished-at="2023-03-29T09:07:33Z" duration-ms="14592">
+  <suite started-at="2023-05-03T09:14:19Z" name="Nopcommerce" finished-at="2023-05-03T09:14:28Z" duration-ms="8814">
     <groups>
     </groups>
-    <test started-at="2023-03-29T09:07:19Z" name="Run on FIREFOX" finished-at="2023-03-29T09:07:33Z" duration-ms="14592">
+    <test started-at="2023-05-03T09:14:19Z" name="Run on FIREFOX" finished-at="2023-05-03T09:14:28Z" duration-ms="8814">
       <class name="com.nopcommerce.user.User_00_Registation_Login_Nopcommerce">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@2a5c8d3f]" started-at="2023-03-29T09:07:19Z" name="beforeClass" finished-at="2023-03-29T09:07:24Z" duration-ms="5684" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@52719fb6]" started-at="2023-05-03T09:14:19Z" name="beforeClass" finished-at="2023-05-03T09:14:24Z" duration-ms="5291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_00_Register_TO_System()[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@2a5c8d3f]" started-at="2023-03-29T09:07:24Z" name="User_00_Register_TO_System" finished-at="2023-03-29T09:07:27Z" duration-ms="3036" status="PASS">
+        <test-method signature="User_00_Register_TO_System()[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@52719fb6]" started-at="2023-05-03T09:14:24Z" name="User_00_Register_TO_System" finished-at="2023-05-03T09:14:27Z" duration-ms="2949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_00_Register_TO_System -->
-        <test-method signature="User_01_Login_To_System()[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@2a5c8d3f]" started-at="2023-03-29T09:07:27Z" name="User_01_Login_To_System" finished-at="2023-03-29T09:07:30Z" duration-ms="2248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- User_01_Login_To_System -->
-        <test-method signature="User_02_Swith_To_DiffirentPage()[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@2a5c8d3f]" started-at="2023-03-29T09:07:30Z" name="User_02_Swith_To_DiffirentPage" finished-at="2023-03-29T09:07:33Z" duration-ms="3055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- User_02_Swith_To_DiffirentPage -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@2a5c8d3f]" started-at="2023-03-29T09:07:33Z" name="afterClass" finished-at="2023-03-29T09:07:33Z" duration-ms="551" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_00_Registation_Login_Nopcommerce@52719fb6]" started-at="2023-05-03T09:14:27Z" name="afterClass" finished-at="2023-05-03T09:14:28Z" duration-ms="556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
