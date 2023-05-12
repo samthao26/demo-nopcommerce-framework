@@ -24,4 +24,8 @@ WebDriver driver;
 		clickToElement(driver, UserLoginUI.LOGIN_BUTTON);
 		return UserPageGeneratorManager.getHomePage(driver);
 	}
+	public boolean getErrorLoginMessage() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

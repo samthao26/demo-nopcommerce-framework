@@ -5,12 +5,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.log4j.BasicConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.reporters.jq.Main;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,10 +21,10 @@ public class BaseTest {
 	 WebDriver driver;
 	 String projectPath = System.getProperty("user.dir");
 	 String osName = System.getProperty("os.name");
-	 protected final Log log; 
+	 protected final Logger log; 
 	 protected BaseTest() {
-		 BasicConfigurator.configure();
-		 log = LogFactory.getLog(getClass());
+		
+		 log =LogManager.getLogger(getClass());
 		 
 	 }
 	

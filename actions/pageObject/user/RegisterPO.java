@@ -34,17 +34,17 @@ public void inputToLastNameTextbox(String lastName) {
 
 public void selectDayOfBirthDropdown(String day) {
 	waitForElementVisible(driver, UserRegisterUI.DAY_OF_BIRTH_DROPDOWN);
-	getSelectItemInDropdown(driver, UserRegisterUI.DAY_OF_BIRTH_DROPDOWN, day);
+	getSelectItemInDropdownByText(driver, UserRegisterUI.DAY_OF_BIRTH_DROPDOWN, day);
 }
 
 public void selectMonthOfBirthDropdown(String month) {
 	waitForElementVisible(driver, UserRegisterUI.MONTH_OF_BIRTH_DROPDOWN);
-	getSelectItemInDropdown(driver, UserRegisterUI.MONTH_OF_BIRTH_DROPDOWN, month);
+	getSelectItemInDropdownByText(driver, UserRegisterUI.MONTH_OF_BIRTH_DROPDOWN, month);
 }
 
 public void selectYearOfBirthDropdown(String year) {
 	waitForElementVisible(driver, UserRegisterUI.YEAR_OF_BIRTH_DROPDOWN);
-	getSelectItemInDropdown(driver, UserRegisterUI.YEAR_OF_BIRTH_DROPDOWN, year);
+	getSelectItemInDropdownByText(driver, UserRegisterUI.YEAR_OF_BIRTH_DROPDOWN, year);
 }
 
 public void inputToEmailTextbox(String emailAddress) {

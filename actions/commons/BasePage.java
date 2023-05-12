@@ -12,6 +12,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.github.dockerjava.api.model.Driver;
+
+import PageUIs.user.UserBasePageUI;
+
 public class BasePage {
 	public BasePage() {
 		
@@ -92,6 +96,9 @@ public class BasePage {
 	public WebElement getWebElement(WebDriver driver, String locator) {
 		return driver.findElement(getByLocator(locator));
 	}
+	public WebElement getElement(WebDriver driver, String locatorType, String ...dynamicValue) {
+		return driver.findElement(byXpath(getDynamicLocator(locatorType, dynamicValue)));
+	}
 	public List<WebElement>getListWebElement(WebDriver driver, String locator){
 		return driver.findElements(getByLocator(locator));
 	}
@@ -130,6 +137,9 @@ public class BasePage {
 		}
 		return locatorType;
 	}
+	private String getDynamicLocator(String locatorType, String ...dynamicValues) {
+		return  String.format(locatorType, (Object[])dynamicValues);
+	}
 	public void clickToElement(WebDriver driver, String locator) {
 		getWebElement(driver, locator).click();
 	}
@@ -137,6 +147,11 @@ public class BasePage {
 		WebElement element = getWebElement(driver, locator);
 		element.clear();
 		element.sendKeys(keyValueToSend);
+	}
+	public void sendkeyToElement(WebDriver driver, String locatorType, String value, String...dynamicValues) {
+		getElement(driver, locatorType, dynamicValues).clear();
+		getElement(driver, locatorType, dynamicValues).sendKeys(dynamicValues);
+		
 	}
 	public String getAttributeValue(WebDriver driver, String locator, String attribuName) {	
 		return getWebElement(driver, locator).getAttribute(attribuName);
@@ -150,8 +165,11 @@ public class BasePage {
 	public void getElementSize(WebDriver driver, String locator) {
 		getListWebElement(driver, locator).size();
 	}
-	public void getSelectItemInDropdown(WebDriver driver,String locator, String itemValue) {
+	public void getSelectItemInDropdownByText(WebDriver driver,String locator, String itemValue) {
 		new Select(getWebElement(driver, locator)).selectByVisibleText(itemValue);
+	}
+	public void getSelectItemInDropdownByText(WebDriver driver, String locatorType, String itemValue, String...dynamicValues) {
+		new Select(getWebElement(driver, getDynamicLocator(locatorType, dynamicValues))).selectByVisibleText(itemValue);
 	}
 	public String getSelectOptionInDropdown(WebDriver driver, String locator) {
 		return new Select(getWebElement(driver, locator)).getFirstSelectedOption().getText();
@@ -224,6 +242,14 @@ public class BasePage {
 		return new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeSelected(getByLocator(locator)));
 	}
 	
+	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, value,textboxID);
+	}
+	public void selectDropdownByName(WebDriver driver, String dropdownName, String itemText) {
+		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		getSelectItemInDropdownByText(driver,UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME,itemText, dropdownName);
+	}
 	
 }
 
