@@ -47,5 +47,37 @@
 	<classpathentry kind="lib" path="libraries/Log4j/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="libraries/Log4j/slf4j-nop-1.7.21.jar"/>
 	<classpathentry kind="lib" path="libraries/Log4j/slf4j-reload4j-1.7.36.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/testng-6.14.3-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/libSelenium/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/bcpkix-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/bcprov-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/dec-0.1.2.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/docker-java-3.2.13.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/docker-java-api-3.2.13.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/docker-java-core-3.2.13.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/docker-java-transport-3.2.13.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/docker-java-transport-httpclient5-3.2.13.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/gson-2.10.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/httpclient5-5.1.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/httpcore5-5.1.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/httpcore5-h2-5.1.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/jna-5.8.0.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/slf4j-api-2.0.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager4/webdrivermanager-5.3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
