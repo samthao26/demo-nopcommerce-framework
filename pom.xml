@@ -1,9 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>MAVEN_HYBRID_ECOMMERCE_FRAMWORK</groupId>
-  <artifactId>MAVEN_HYBRID_ECOMMERCE_FRAMWORK</artifactId>
+
+  <groupId>demo-nopcommerce-framework</groupId>
+  <artifactId>demo-nopcommerce-framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>MAVEN_HYBRID_ECOMMERCE_FRAMWORK</name>
+  <name>demo-nopcommerce-framework</name>
   <!-- Khai báo biến - Global Variable -->
 	<properties>
 		<!-- Encoding for Build/ Console -->
@@ -13,16 +14,17 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<!-- Compiler Code with Java 17 -->
-		<maven.compiler.target>1.17</maven.compiler.target>
-		<maven.compiler.source>1.17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
 
 		<!-- Global variable for dependencies -->
 		<webdriver.version>3.141.59</webdriver.version>
 		<testng.version>6.14.3</testng.version>
-		<log4j.version>2.12.4</log4j.version>
+		<log4j.version>2.20.0</log4j.version>
 		<jackson.version>2.9.4</jackson.version>
 		<reportng.version>1.1.4</reportng.version>
 		<webdrivermanager.version>5.3.1</webdrivermanager.version>
+		<aspectj.version>1.9.8</aspectj.version>
 	</properties>
 	<dependencies>
 		<!-- TestNG -->
@@ -54,7 +56,6 @@
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
 			<version>${reportng.version}</version>
-			<scope>test</scope>
 		</dependency>
 
 		<dependency>
@@ -82,19 +83,25 @@
   			  <version>${log4j.version}</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+		 <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>2.20.0</version>
+        </dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-		<dependency>
-    		<groupId>org.slf4j</groupId>
-   			 <artifactId>slf4j-api</artifactId>
-  			  <version>2.0.6</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>velocity</groupId>
 			<artifactId>velocity-dep</artifactId>
 			<version>1.4</version>
 		</dependency>
-
+		<dependency>
+   			 <groupId>org.aspectj</groupId>
+   			 <artifactId>aspectjweaver</artifactId>
+  			  <version>1.9.8</version>
+    		<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>com.google.inject</groupId>
 			<artifactId>guice</artifactId>
@@ -112,6 +119,7 @@
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+
 	</dependencies>
 
 <!-- Compiler/ Run Test -->
@@ -124,8 +132,8 @@
 				<version>3.11.0</version>
 				<!-- Compiler code vs Java 1.17-->
 				<configuration>
-					<source>1.17</source>
-					<target>1.17</target>
+					<source>17</source>
+					<target>17</target>
 				</configuration>
 			</plugin>
 		<!-- Run test -->
@@ -137,7 +145,7 @@
 				<configuration>
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/test/resources/runUserGuruTestcases.xml</file>
+						<file>src/test/resources/runNopcommerceTestCases.xml</file>
 					</suiteXmlFiles>
 
 					<!-- Argument -->

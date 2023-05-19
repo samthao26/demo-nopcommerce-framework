@@ -135,7 +135,7 @@
         </div> <!-- panel Nopcommerce -->
         <div panel-name="test-xml-Nopcommerce" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/thao/eclipse/eclipse-workspace/MAVEN_HYBRID_ECOMMERCE_FRAMWORK/src/test/resources/runNopcommerceTestCases.xml</span>
+            <span class="header-content">/home/thao/eclipse/eclipse-workspace/demo-nopcommerce-framework/src/test/resources/runNopcommerceTestCases.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,6 +145,7 @@
   &lt;parameter name=&quot;appUrl&quot; value=&quot;https://demo.nopcommerce.com/&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ReportNGListener&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
   &lt;/listeners&gt;
@@ -195,12 +196,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'User_00_Register_TO_System')
 data.setCell(0, 2, 'com.nopcommerce.user.User_00_Registation_Login_Nopcommerce')
-data.setCell(0, 3, 3955);
+data.setCell(0, 3, 4109);
 window.suiteTableData['Nopcommerce']= { tableData: data, tableDiv: 'times-div-Nopcommerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Nopcommerce">
               </div> <!-- times-div-Nopcommerce -->
             </div> <!-- times-div -->
@@ -211,6 +212,49 @@ return data;
             <span class="header-content">Reporter output for Nopcommerce</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">User_00_Register_TO_System</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase User_00_Register_TO_System started successfully</span>
+                <span class="reporter-method-output">Testcase User_00_Register_TO_System started successfully</span>
+                <span class="reporter-method-output">[DEBUG] [19-05-2023 15:00:27] Before invocation of User_00_Register_TO_System
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:27] Register - Step 01: Navigate to 'Home' page
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:27] Register - Step 02: Click to 'Register' link 
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:28] Register - Step 03: Navigate to 'Register' page 
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:28] Register - Step 04: Click to 'Female' gender 
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:28] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:28] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:28] Register - Step 07: Select to day of birth dropdown
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:29] Register - Step 08: Select to month of birth dropdown
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:29] Register - Step 09: Select to year of birth dropdown
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:29] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:29] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:29] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:30] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:30] Register- Step 14: Click to Register button
+</span>
+                <span class="reporter-method-output">[INFO ] [19-05-2023 15:00:31] Register - Step 15: Verify get registered sucess message
+</span>
+                <span class="reporter-method-output">[DEBUG] [19-05-2023 15:00:31] After invocation of User_00_Register_TO_System
+</span>
+                <span class="reporter-method-output">Testcase User_00_Register_TO_System passed successfully</span>
+                <span class="reporter-method-output">Testcase User_00_Register_TO_System passed successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Nopcommerce" class="panel">
@@ -233,11 +277,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">User_00_Register_TO_System</span>
-                <span class="method-start">5269 ms</span>
+                <span class="method-start">5020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">9253 ms</span>
+                <span class="method-start">9133 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

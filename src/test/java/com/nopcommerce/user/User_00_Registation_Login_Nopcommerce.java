@@ -2,12 +2,15 @@ package com.nopcommerce.user;
 
 import static org.testng.Assert.assertEquals;
 
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import commons.BaseTest;
 import pageObject.user.AddressPO;
@@ -24,6 +27,8 @@ import pageObject.user.SearchPO;
 import pageObject.user.ShippingAndReturnPO;
 import pageObject.user.UserPageGeneratorManager;
 
+
+@Listeners(reportConfig.ReportNGListener.class)
 public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	
 @Parameters({"browser", "appUrl"})
@@ -74,7 +79,7 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	
 
 }
-
+@Test
 	public void User_01_Login_To_System() {
 	loginPage = registerPage.clickToLoginLink();
 	loginPage.inputToEmailTextbox(emailAdress);
@@ -82,19 +87,19 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	homePage = loginPage.clickToLoginButton();  
 	Assert.assertTrue(homePage.isMyAccountLinkDisPlayed());
 	customeInforPage = homePage.clickToMyAccountLink();
-	Assert.assertTrue(customeInforPage.isFemaleGenderSelected());
-	Assert.assertEquals(customeInforPage.getFirstNameTextboxAttribute(),"Andrea");
-	Assert.assertEquals(customeInforPage.getLastNameTextboxAttribute(), "Hull");
-	Assert.assertEquals(customeInforPage.getDayOfBirthDropdow(), "1");
-	Assert.assertEquals(customeInforPage.getMonthOfBirthDropdown(), "March");
-	Assert.assertEquals(customeInforPage.getyearOfBirthDropdown(), "2000");
-	Assert.assertEquals(customeInforPage.getEmailTextbox(), emailAdress);
-	Assert.assertEquals(customeInforPage.getCompanyNameTextbox(), "Automation Group");
+	verifyTrue(customeInforPage.isFemaleGenderSelected());
+	verifyEquals(customeInforPage.getFirstNameTextboxAttribute(),"Andrea");
+	verifyEquals(customeInforPage.getLastNameTextboxAttribute(), "Hull");
+	verifyEquals(customeInforPage.getDayOfBirthDropdow(), "1");
+	verifyEquals(customeInforPage.getMonthOfBirthDropdown(), "March");
+	verifyEquals(customeInforPage.getyearOfBirthDropdown(), "2000");
+	verifyEquals(customeInforPage.getEmailTextbox(), emailAdress);
+	verifyEquals(customeInforPage.getCompanyNameTextbox(), "Automation Group");
 	
 	
 }
 
-
+@Test
 	public void User_02_Swith_To_DiffirentPage() {
 	addressPage = customeInforPage.openAddreses(driver);
 	oderPage = addressPage.openOderPage(driver);
