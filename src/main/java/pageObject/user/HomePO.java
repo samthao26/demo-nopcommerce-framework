@@ -31,6 +31,11 @@ public class HomePO extends BasePage{
 		waitForElementVisible(driver, UserHomeUI.HOME_NIVO_SILDER);
 		return isElementDisplayed(driver, UserHomeUI.HOME_NIVO_SILDER);
 	}
+	public void clickToLoginLink() {
+		waitForElementClickable(driver, UserHomeUI.LOGIN_LINK);
+		clickToElement(driver, UserHomeUI.LOGIN_LINK);
+		
+	}
 	
 	
 }
