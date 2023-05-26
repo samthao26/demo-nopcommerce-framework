@@ -24,9 +24,9 @@ public class ReporterAppender extends AbstractAppender {
     public void append(final LogEvent event) {
         final Layout<? extends Serializable> layout = getLayout();
         if (layout != null && layout instanceof AbstractStringLayout) {
-            Reporter.log(((AbstractStringLayout) layout).toSerializable(event));
+            Reporter.log(((AbstractStringLayout) layout).toSerializable(event) + "<br>");
         } else {
-        	Reporter.log(event.getMessage().getFormattedMessage());
+            Reporter.log(event.getMessage().getFormattedMessage() + "<br>");
         }
     }
 
