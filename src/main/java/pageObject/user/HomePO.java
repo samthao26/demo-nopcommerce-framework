@@ -12,17 +12,6 @@ public class HomePO extends BasePage{
 	public HomePO(WebDriver driver) {
 		this.driver = driver;
 	}
-	public RegisterPO clickToRegisterLink() {
-		waitForElementClickable(driver, UserHomeUI.REGISTER_LINK);
-		clickToElement(driver, UserHomeUI.REGISTER_LINK);
-		return UserPageGeneratorManager.getRegisterPage(driver);
-	
-	}
-	public CustomerInforPO clickToMyAccountLink() {
-		waitForElementClickable(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
-		clickToElement(driver,  UserMyAccountUI.MY_ACCOUNT_LINK );
-		return UserPageGeneratorManager.getCustomerInforPage(driver);
-	}
 	public boolean isMyAccountLinkDisPlayed() {
 		waitForElementVisible(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
 		return isElementDisplayed(driver, UserMyAccountUI.MY_ACCOUNT_LINK);
@@ -31,6 +20,7 @@ public class HomePO extends BasePage{
 		waitForElementVisible(driver, UserHomeUI.HOME_NIVO_SILDER);
 		return isElementDisplayed(driver, UserHomeUI.HOME_NIVO_SILDER);
 	}
+	
 	
 	
 }

@@ -48,7 +48,7 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	log.info("Register - Step 01: Navigate to 'Home' page");
 	homePage = UserPageGeneratorManager.getHomePage(driver);
 	log.info("Register - Step 02: Click to 'Register' link ");
-	homePage.clickToRegisterLink();
+	homePage.clickToHeaderLink(driver, "Register");
 	log.info("Register - Step 03: Navigate to 'Register' page ");
 	registerPage =UserPageGeneratorManager.getRegisterPage(driver);
 	log.info("Register - Step 04: Click to 'Female' gender ");
@@ -81,13 +81,23 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 }
 @Test
 	public void User_01_Login_To_System() {
+	log.info("User_01 - Step 01: Click to 'Register' link ");
 	loginPage = registerPage.clickToLoginLink();
-	loginPage.inputToEmailTextbox(emailAdress);
-	loginPage.inputToPasswordTextbox(userPassword);
-	homePage = loginPage.clickToLoginButton();  
+	log.info("User_01 - Step 02: Enter to Email textbox with value is + 'emailAdress'+");
+	loginPage.inputToTextboxByID(driver, "Email", emailAdress);;
+	log.info("User_01 - Step 02: Enter to Email textbox with value is + 'userPassword'+");
+	loginPage.inputToTextboxByID(driver, "Password", userPassword);
+	log.info("User_01 - Step 01: Click to 'Login' button ");
+	loginPage.clickToButtonByText(driver, "Log in");  
+	homePage = UserPageGeneratorManager.getHomePage(driver);
+	log.info("User_01 - Step 01: Verify MyAccount link is disPlayed");
 	Assert.assertTrue(homePage.isMyAccountLinkDisPlayed());
-	customeInforPage = homePage.clickToMyAccountLink();
-	verifyTrue(customeInforPage.isFemaleGenderSelected());
+	log.info("User_01 - Step 01: Click to 'MyAccount' link ");
+	homePage.clickToHeaderLink(driver, "My account");
+	customeInforPage = UserPageGeneratorManager.getCustomerInforPage(driver);
+	log.info("User_01 - Step 01: Verify FemaleGender is selected");
+	Assert.assertFalse(customeInforPage.isFemaleGenderSelected());
+	
 	verifyEquals(customeInforPage.getFirstNameTextboxAttribute(),"Andrea");
 	verifyEquals(customeInforPage.getLastNameTextboxAttribute(), "Hull");
 	verifyEquals(customeInforPage.getDayOfBirthDropdow(), "1");

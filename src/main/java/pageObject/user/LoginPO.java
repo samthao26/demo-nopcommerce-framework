@@ -11,19 +11,6 @@ WebDriver driver;
 	public LoginPO (WebDriver driver) {
 		this.driver = driver;
 	}
-	public void inputToEmailTextbox(String emailAdress) {
-		waitForElementVisible(driver, UserLoginUI.EMAIL_TEXTBOX);
-		sendkeyToElement(driver, UserLoginUI.EMAIL_TEXTBOX, emailAdress);
-	}
-	public void inputToPasswordTextbox(String userPassword) {
-		waitForElementVisible(driver, UserLoginUI.PASSWORD_TEXTBOX);
-		sendkeyToElement(driver, UserLoginUI.PASSWORD_TEXTBOX, userPassword);
-	}
-	public HomePO clickToLoginButton() {
-		waitForElementClickable(driver, UserLoginUI.LOGIN_BUTTON);
-		clickToElement(driver, UserLoginUI.LOGIN_BUTTON);
-		return UserPageGeneratorManager.getHomePage(driver);
-	}
 	public boolean getErrorLoginMessage() {
 		// TODO Auto-generated method stub
 		return false;

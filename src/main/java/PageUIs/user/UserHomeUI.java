@@ -5,5 +5,6 @@ public class UserHomeUI {
 	public static final String HOME_NIVO_SILDER = "id=nivo-slider";
 	public static final String LOGOUT_LINK ="xpath=//a[@class='ico-logout']";
 	
+	
 
 }

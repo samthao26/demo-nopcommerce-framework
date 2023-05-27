@@ -44,5 +44,8 @@ public class UserPageGeneratorManager {
 	public static ShippingAndReturnPO getShippingAndReturnPage(WebDriver driver) {
 		return new ShippingAndReturnPO(driver);
 	}
+	public static MyAccountPO getMyAccountPage(WebDriver driver) {
+		return new MyAccountPO(driver);
+	}
 		
 }

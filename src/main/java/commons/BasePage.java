@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 import PageUIs.user.UserBasePageUI;
+import pageObject.user.HomePO;
 
 public class BasePage {
 	public BasePage() {
@@ -143,6 +144,9 @@ public class BasePage {
 	public void clickToElement(WebDriver driver, String locator) {
 		getWebElement(driver, locator).click();
 	}
+	public void clickToElement(WebDriver driver, String locatorType, String...dynamicValues) {
+		getElement(driver, locatorType, dynamicValues).click();
+	}
 	public void sendkeyToElement(WebDriver driver, String locator, String keyValueToSend) {
 		WebElement element = getWebElement(driver, locator);
 		element.clear();
@@ -218,6 +222,9 @@ public class BasePage {
 	public void waitForElementClickable(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));
 	}
+	public void waitForElementClickable(WebDriver driver, String locatorType, String ...dynamicValues) {
+		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(getDynamicLocator(locatorType, dynamicValues))));
+	}
 	public void waitForElementInvisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locator)));
 	}
@@ -250,7 +257,15 @@ public class BasePage {
 		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
 		getSelectItemInDropdownByText(driver,UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME,itemText, dropdownName);
 	}
-	
+	public void clickToHeaderLink(WebDriver driver, String headerLink) {
+		waitForElementClickable(driver, UserBasePageUI.DYNAMIC_HEADER_LINK, headerLink);
+		clickToElement(driver, UserBasePageUI.DYNAMIC_HEADER_LINK, headerLink);
+	}
+	public void clickToButtonByText(WebDriver driver, String buttonTextName) {
+		waitForElementClickable(driver, UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName);
+		clickToElement(driver, UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName );
+		
+	}
 }
 
 

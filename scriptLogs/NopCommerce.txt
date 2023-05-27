@@ -1,0 +1,1485 @@
+[INFO ] [2023-05-18 11:08:19,772] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 11:08:19,774] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 11:08:20,873] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 11:08:20,874] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 11:08:21,153] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 11:08:21,237] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 11:08:21,322] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 11:08:21,705] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 11:08:22,011] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 11:08:22,320] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 11:08:22,463] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 11:08:22,565] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 11:08:22,647] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 11:08:22,782] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 11:08:23,674] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 11:10:47,053] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 11:10:47,056] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 11:10:47,743] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 11:10:47,744] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 11:10:48,110] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 11:10:48,222] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 11:10:48,328] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 11:10:48,660] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 11:10:48,983] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 11:10:49,299] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 11:10:49,396] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 11:10:49,502] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 11:10:49,582] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 11:10:49,664] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 11:10:50,550] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 11:59:11,059] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 11:59:11,063] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 11:59:12,263] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 11:59:12,263] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 11:59:12,552] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 11:59:12,659] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 11:59:12,752] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 11:59:13,083] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 11:59:13,405] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 11:59:13,722] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 11:59:13,862] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 11:59:13,963] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 11:59:14,050] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 11:59:14,183] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 11:59:15,180] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 12:18:11,082] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 12:18:11,086] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 12:18:12,396] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 12:18:12,397] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 12:18:12,688] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 12:18:12,799] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 12:18:12,902] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 12:18:13,232] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 12:18:13,577] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 12:18:13,882] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 12:18:13,979] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 12:18:14,129] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:18:14,214] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:18:14,296] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 12:18:15,173] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 12:30:54,532] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 12:30:54,537] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 12:30:55,808] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 12:30:55,809] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 12:30:56,107] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 12:30:56,201] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 12:30:56,290] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 12:30:56,607] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 12:30:56,954] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 12:30:57,315] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 12:30:57,461] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 12:30:57,561] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:30:57,638] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:30:57,715] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 12:30:58,631] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 12:50:09,300] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 12:50:09,304] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 12:50:10,557] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 12:50:10,557] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 12:50:10,899] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 12:50:11,016] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 12:50:11,121] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 12:50:11,456] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 12:50:11,780] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 12:50:12,137] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 12:50:12,240] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 12:50:12,342] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:50:12,433] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:50:12,524] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 12:50:13,415] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 12:59:51,485] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 12:59:51,488] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 12:59:52,820] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 12:59:52,820] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 12:59:53,145] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 12:59:53,250] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 12:59:53,346] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 12:59:53,676] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 12:59:54,031] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 12:59:54,382] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 12:59:54,476] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 12:59:54,578] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:59:54,656] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 12:59:54,727] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 12:59:55,602] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:00:36,913] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:00:36,916] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:00:37,566] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:00:37,567] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:00:37,875] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:00:37,956] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:00:38,029] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:00:38,340] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:00:38,658] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:00:38,973] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:00:39,055] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:00:39,143] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:00:39,215] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:00:39,331] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:00:40,163] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:00:51,779] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:00:51,782] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:00:53,059] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:00:53,059] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:00:53,403] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:00:53,512] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:00:53,603] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:00:53,920] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:00:54,276] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:00:54,582] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:00:54,678] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:00:54,781] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:00:54,855] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:00:54,938] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:00:55,824] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:03:37,390] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:03:37,394] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:03:38,538] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:03:38,539] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:03:38,891] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:03:38,988] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:03:39,069] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:03:39,397] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:03:39,717] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:03:40,009] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:03:40,086] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:03:40,184] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:03:40,265] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:03:40,346] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:03:41,255] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:12:55,456] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:12:55,459] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:12:56,636] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:12:56,637] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:12:56,961] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:12:57,061] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:12:57,168] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:12:57,493] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:12:57,869] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:12:58,232] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:12:58,372] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:12:58,478] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:12:58,552] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:12:58,673] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:12:59,558] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:15:06,066] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:15:06,069] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:15:07,285] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:15:07,286] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:15:07,585] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:15:07,726] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:15:07,856] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:15:08,190] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:15:08,503] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:15:08,865] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:15:09,002] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:15:09,129] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:15:09,193] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:15:09,267] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:15:10,154] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:17:09,090] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:17:09,093] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:17:10,255] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:17:10,255] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:17:10,566] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:17:10,661] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:17:10,743] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:17:11,079] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:17:11,404] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:17:11,758] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:17:11,863] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:17:12,005] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:17:12,148] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:17:12,260] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:17:13,077] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:28:07,468] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:28:07,472] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:28:08,652] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:28:08,652] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:28:08,971] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:28:09,080] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:28:09,188] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:28:09,474] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:28:09,784] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:28:10,108] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:28:10,196] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:28:10,274] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:28:10,341] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:28:10,464] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:28:11,472] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 13:31:48,546] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 13:31:48,551] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 13:31:49,802] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 13:31:49,803] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 13:31:50,091] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 13:31:50,198] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 13:31:50,332] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 13:31:50,699] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 13:31:50,999] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 13:31:51,351] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 13:31:51,471] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 13:31:51,544] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:31:51,609] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 13:31:51,726] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 13:31:52,615] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 14:07:20,612] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 14:07:20,617] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 14:07:21,718] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 14:07:21,718] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 14:07:22,075] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 14:07:22,165] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 14:07:22,237] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 14:07:22,532] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 14:07:22,828] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 14:07:23,128] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 14:07:23,212] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 14:07:23,300] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:07:23,377] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:07:23,453] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 14:07:24,345] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 14:16:56,395] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 14:16:56,399] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 14:16:57,598] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 14:16:57,598] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 14:16:57,942] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 14:16:58,058] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 14:16:58,158] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 14:16:58,493] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 14:16:58,819] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 14:16:59,133] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 14:16:59,231] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 14:16:59,337] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:16:59,419] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:16:59,563] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 14:17:00,496] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 14:35:34,840] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 14:35:34,846] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 14:35:35,942] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 14:35:35,943] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 14:35:36,257] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 14:35:36,354] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 14:35:36,436] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 14:35:36,738] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 14:35:37,017] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 14:35:37,354] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 14:35:37,447] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 14:35:37,615] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:35:37,749] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:35:37,844] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 14:35:38,698] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 14:42:27,957] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-18 14:42:27,977] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-18 14:42:32,903] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 14:42:32,903] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 14:42:34,033] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 14:42:34,033] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 14:42:34,324] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 14:42:34,402] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 14:42:34,487] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 14:42:34,866] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 14:42:35,226] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 14:42:35,536] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 14:42:35,628] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 14:42:35,726] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:42:35,814] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 14:42:35,941] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 14:42:36,835] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 15:09:53,715] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-18 15:09:53,731] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-18 15:09:58,228] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 15:09:58,228] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 15:09:58,905] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 15:09:58,905] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 15:09:59,196] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 15:09:59,304] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 15:09:59,394] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 15:09:59,716] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 15:10:00,041] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 15:10:00,345] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 15:10:00,434] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 15:10:00,529] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:10:00,604] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:10:00,682] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 15:10:01,549] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 15:26:58,217] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-18 15:26:58,233] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-18 15:27:02,955] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 15:27:02,955] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 15:27:04,108] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 15:27:04,109] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 15:27:04,405] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 15:27:04,508] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 15:27:04,597] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 15:27:04,925] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 15:27:05,284] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 15:27:05,637] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 15:27:05,727] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 15:27:05,829] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:27:05,905] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:27:05,985] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 15:27:06,912] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 15:31:22,222] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-18 15:31:22,237] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-18 15:31:27,286] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 15:31:27,286] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 15:31:28,507] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 15:31:28,508] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 15:31:28,801] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 15:31:28,909] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 15:31:28,999] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 15:31:29,329] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 15:31:29,647] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 15:31:29,957] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 15:31:30,051] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 15:31:30,151] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:31:30,230] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:31:30,358] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 15:31:31,198] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-18 15:41:29,390] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-18 15:41:29,414] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-18 15:41:34,048] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-18 15:41:34,048] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-18 15:41:35,263] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-18 15:41:35,263] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-18 15:41:35,555] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-18 15:41:35,650] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-18 15:41:35,714] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-18 15:41:36,035] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-18 15:41:36,383] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-18 15:41:36,680] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-18 15:41:36,812] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-18 15:41:36,904] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:41:36,973] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-18 15:41:37,095] Register- Step 14: Click to Register button
+[INFO ] [2023-05-18 15:41:37,928] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 09:43:54,725] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 09:43:54,742] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 09:43:59,513] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 09:43:59,513] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 09:44:00,680] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 09:44:00,680] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 09:44:00,965] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 09:44:01,064] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 09:44:01,192] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 09:44:01,511] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 09:44:01,800] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 09:44:02,100] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 09:44:02,190] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 09:44:02,328] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:44:02,457] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:44:02,585] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 09:44:04,014] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 09:57:36,068] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 09:57:36,085] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 09:57:40,860] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 09:57:40,861] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 09:57:42,025] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 09:57:42,026] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 09:57:42,326] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 09:57:42,430] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 09:57:42,560] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 09:57:42,890] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 09:57:43,197] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 09:57:43,507] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 09:57:43,644] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 09:57:43,740] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:57:43,813] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:57:43,891] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 09:57:45,290] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 09:58:11,462] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 09:58:11,478] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 09:58:16,255] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 09:58:16,256] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 09:58:17,079] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 09:58:17,080] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 09:58:17,442] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 09:58:17,545] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 09:58:17,674] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 09:58:18,000] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 09:58:18,357] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 09:58:18,707] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 09:58:18,840] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 09:58:18,980] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:58:19,108] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:58:19,192] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 09:58:20,104] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 09:59:28,564] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 09:59:28,579] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 09:59:32,809] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 09:59:32,809] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 09:59:33,464] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 09:59:33,464] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 09:59:33,755] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 09:59:33,856] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 09:59:33,943] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 09:59:34,266] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 09:59:34,621] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 09:59:34,971] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 09:59:35,062] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 09:59:35,200] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:59:35,329] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 09:59:35,456] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 09:59:36,316] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 10:07:32,499] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 10:07:32,515] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 10:07:37,308] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 10:07:37,308] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 10:07:38,557] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 10:07:38,558] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 10:07:38,900] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 10:07:39,002] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 10:07:39,091] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 10:07:39,420] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 10:07:39,782] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 10:07:40,087] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 10:07:40,175] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 10:07:40,271] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 10:07:40,349] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 10:07:40,481] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 10:07:41,333] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 10:23:10,891] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 10:23:10,909] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 10:23:15,736] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 10:23:15,736] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 10:23:16,972] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 10:23:16,972] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 10:23:17,323] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 10:23:17,416] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 10:23:17,498] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 10:23:17,811] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 10:23:18,124] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 10:23:18,435] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 10:23:18,526] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 10:23:18,623] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 10:23:18,683] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 10:23:18,750] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 10:23:20,160] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 10:56:55,652] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 10:56:55,668] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 10:57:00,414] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 10:57:00,414] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 10:57:01,216] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 10:57:01,216] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 10:57:01,561] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 10:57:01,653] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 10:57:01,741] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 10:57:02,120] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 10:57:02,429] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 10:57:02,732] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 10:57:02,868] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 10:57:03,015] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 10:57:03,099] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 10:57:03,187] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 10:57:04,015] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 11:17:53,190] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 11:17:53,213] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 11:17:58,022] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:17:58,023] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:17:59,239] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:17:59,240] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:17:59,585] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:17:59,690] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:17:59,828] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:18:00,215] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:18:00,537] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:18:00,847] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:18:00,941] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:18:01,041] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:18:01,127] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:18:01,263] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:18:02,203] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 11:20:25,103] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 11:20:25,120] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 11:20:29,998] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:20:29,998] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:20:31,173] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:20:31,174] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:20:31,453] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:20:31,557] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:20:31,647] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:20:31,979] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:20:32,292] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:20:32,652] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:20:32,797] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:20:32,901] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:20:32,982] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:20:33,116] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:20:33,993] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 11:21:04,659] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 11:21:04,675] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 11:21:09,442] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:21:09,443] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:21:10,694] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:21:10,695] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:21:11,006] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:21:11,112] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:21:11,203] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:21:11,533] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:21:11,844] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:21:12,164] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:21:12,262] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:21:12,365] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:21:12,445] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:21:12,526] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:21:13,430] Register - Step 15: Verify get registered sucess message
+[INFO ] [2023-05-19 11:27:34,586] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[INFO ] [2023-05-19 11:27:34,602] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[INFO ] [2023-05-19 11:27:39,350] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:27:39,351] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:27:40,534] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:27:40,535] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:27:40,825] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:27:40,931] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:27:41,023] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:27:41,354] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:27:41,667] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:27:42,037] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:27:42,135] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:27:42,230] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:27:42,302] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:27:42,380] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:27:43,275] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 11:29:37,184] Before invocation of beforeClass
+[DEBUG] [2023-05-19 11:29:37,493] Resolution firefox=102 in cache (valid until 11:56:55 19/05/2023 ICT)
+[DEBUG] [2023-05-19 11:29:37,494] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 11:29:37,494] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 11:29:37,500] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 11:29:37,507] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 11:29:37,507] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 11:29:37,508] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 11:29:37,509] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 11:29:37,510] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 11:29:42,136] After invocation of beforeClass
+[DEBUG] [2023-05-19 11:29:42,149] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 11:29:42,150] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:29:42,150] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:29:43,331] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:29:43,331] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:29:43,625] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:29:43,734] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:29:43,831] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:29:44,163] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:29:44,477] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:29:44,846] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:29:44,994] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:29:45,097] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:29:45,231] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:29:45,323] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:29:46,272] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 11:29:46,374] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 11:29:46,378] Before invocation of afterClass
+[DEBUG] [2023-05-19 11:29:47,074] After invocation of afterClass
+[DEBUG] [2023-05-19 11:46:40,536] Before invocation of beforeClass
+[DEBUG] [2023-05-19 11:46:40,803] Resolution firefox=102 in cache (valid until 11:56:55 19/05/2023 ICT)
+[DEBUG] [2023-05-19 11:46:40,805] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 11:46:40,805] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 11:46:40,810] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 11:46:40,817] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 11:46:40,817] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 11:46:40,817] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 11:46:40,818] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 11:46:40,819] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 11:46:45,663] After invocation of beforeClass
+[DEBUG] [2023-05-19 11:46:45,677] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 11:46:45,677] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:46:45,678] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:46:46,834] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:46:46,835] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:46:47,158] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:46:47,267] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:46:47,359] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:46:47,681] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:46:47,997] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:46:48,318] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:46:48,465] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:46:48,610] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:46:48,693] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:46:48,827] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:46:49,663] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 11:46:49,767] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 11:46:49,770] Before invocation of afterClass
+[DEBUG] [2023-05-19 11:46:50,358] After invocation of afterClass
+[DEBUG] [2023-05-19 11:50:47,183] Before invocation of beforeClass
+[DEBUG] [2023-05-19 11:50:47,455] Resolution firefox=102 in cache (valid until 11:56:55 19/05/2023 ICT)
+[DEBUG] [2023-05-19 11:50:47,456] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 11:50:47,457] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 11:50:47,462] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 11:50:47,469] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 11:50:47,469] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 11:50:47,470] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 11:50:47,471] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 11:50:47,472] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 11:50:52,135] After invocation of beforeClass
+[DEBUG] [2023-05-19 11:50:52,152] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 11:50:52,153] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 11:50:52,153] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 11:50:52,765] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 11:50:52,766] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 11:50:53,054] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 11:50:53,161] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 11:50:53,258] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 11:50:53,572] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 11:50:53,884] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 11:50:54,249] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 11:50:54,400] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 11:50:54,503] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:50:54,583] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 11:50:54,662] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 11:50:55,583] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 11:50:55,679] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 11:50:55,685] Before invocation of afterClass
+[DEBUG] [2023-05-19 11:50:56,348] After invocation of afterClass
+[DEBUG] [2023-05-19 12:06:25,069] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:06:25,342] Removing resolution firefox=102 from cache (expired on 2023-05-19T11:56:55.000+0700)
+[TRACE] [2023-05-19 12:06:25,349] Reading online commands.properties to find out driver version
+[DEBUG] [2023-05-19 12:06:25,357] ex-0000000001 preparing request execution
+[DEBUG] [2023-05-19 12:06:25,379] ex-0000000001 Cookie spec selected: strict
+[DEBUG] [2023-05-19 12:06:25,383] ex-0000000001 Auth cache not set in the context
+[DEBUG] [2023-05-19 12:06:25,383] ex-0000000001 target auth state: UNCHALLENGED
+[DEBUG] [2023-05-19 12:06:25,384] ex-0000000001 proxy auth state: UNCHALLENGED
+[DEBUG] [2023-05-19 12:06:25,384] ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+[DEBUG] [2023-05-19 12:06:25,384] ex-0000000001 acquiring endpoint (3 MINUTES)
+[DEBUG] [2023-05-19 12:06:25,387] ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+[DEBUG] [2023-05-19 12:06:25,390] ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] [2023-05-19 12:06:25,398] ex-0000000001 acquired ep-0000000000
+[DEBUG] [2023-05-19 12:06:25,398] ex-0000000001 acquired endpoint ep-0000000000
+[DEBUG] [2023-05-19 12:06:25,398] ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+[DEBUG] [2023-05-19 12:06:25,399] ep-0000000000 connecting endpoint (30 SECONDS)
+[DEBUG] [2023-05-19 12:06:25,399] ep-0000000000 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+[DEBUG] [2023-05-19 12:06:25,455] http-outgoing-0 connecting to raw.githubusercontent.com/185.199.110.133:443
+[DEBUG] [2023-05-19 12:06:25,455] Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 30 SECONDS
+[DEBUG] [2023-05-19 12:06:25,556] Enabled protocols: [TLSv1.3, TLSv1.2]
+[DEBUG] [2023-05-19 12:06:25,557] Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] [2023-05-19 12:06:25,557] Starting handshake
+[DEBUG] [2023-05-19 12:06:25,703] Secure session established
+[DEBUG] [2023-05-19 12:06:25,703]  negotiated protocol: TLSv1.3
+[DEBUG] [2023-05-19 12:06:25,704]  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+[DEBUG] [2023-05-19 12:06:25,706]  peer principal: CN=*.github.io, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+[DEBUG] [2023-05-19 12:06:25,706]  peer alternative names: [*.github.io, github.io, *.github.com, github.com, www.github.com, *.githubusercontent.com, githubusercontent.com]
+[DEBUG] [2023-05-19 12:06:25,706]  issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
+[DEBUG] [2023-05-19 12:06:25,707] http-outgoing-0 connection established 192.168.88.244:46934<->185.199.110.133:443
+[DEBUG] [2023-05-19 12:06:25,707] ep-0000000000 connected http-outgoing-0
+[DEBUG] [2023-05-19 12:06:25,708] ep-0000000000 endpoint connected
+[DEBUG] [2023-05-19 12:06:25,708] ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] [2023-05-19 12:06:25,709] ep-0000000000 start execution ex-0000000001
+[DEBUG] [2023-05-19 12:06:25,709] ep-0000000000 executing exchange ex-0000000001 over http-outgoing-0
+[DEBUG] [2023-05-19 12:06:25,710] http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] [2023-05-19 12:06:25,710] http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+[DEBUG] [2023-05-19 12:06:25,710] http-outgoing-0 >> accept-encoding: gzip, deflate, br
+[DEBUG] [2023-05-19 12:06:25,710] http-outgoing-0 >> cache-control: max-age=0
+[DEBUG] [2023-05-19 12:06:25,711] http-outgoing-0 >> connection: keep-alive
+[DEBUG] [2023-05-19 12:06:25,711] http-outgoing-0 >> Host: raw.githubusercontent.com
+[DEBUG] [2023-05-19 12:06:25,711] http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,711] http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,712] http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,712] http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,712] http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,712] http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,713] http-outgoing-0 >> "[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,795] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,795] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,795] http-outgoing-0 << "Content-Length: 723[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,795] http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,796] http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,796] http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,796] http-outgoing-0 << "ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,796] http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,797] http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,797] http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,797] http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,797] http-outgoing-0 << "X-GitHub-Request-Id: D33E:4572:341F6F:3C76BC:64518A35[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,797] http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,798] http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,798] http-outgoing-0 << "Date: Fri, 19 May 2023 05:06:25 GMT[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,798] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,798] http-outgoing-0 << "X-Served-By: cache-qpg1281-QPG[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,799] http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,799] http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,799] http-outgoing-0 << "X-Timer: S1684472786.744857,VS0,VE1[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,799] http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,799] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,800] http-outgoing-0 << "X-Fastly-Request-ID: 3880ea1edc4ca1e91061dcd52ec5719433134545[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,800] http-outgoing-0 << "Expires: Fri, 19 May 2023 05:11:25 GMT[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,800] http-outgoing-0 << "Source-Age: 206[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,800] http-outgoing-0 << "[\r][\n]"
+[DEBUG] [2023-05-19 12:06:25,803] http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] [2023-05-19 12:06:25,804] http-outgoing-0 << Connection: keep-alive
+[DEBUG] [2023-05-19 12:06:25,804] http-outgoing-0 << Content-Length: 723
+[DEBUG] [2023-05-19 12:06:25,804] http-outgoing-0 << Cache-Control: max-age=300
+[DEBUG] [2023-05-19 12:06:25,804] http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+[DEBUG] [2023-05-19 12:06:25,804] http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[DEBUG] [2023-05-19 12:06:25,805] http-outgoing-0 << ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"
+[DEBUG] [2023-05-19 12:06:25,805] http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+[DEBUG] [2023-05-19 12:06:25,805] http-outgoing-0 << X-Content-Type-Options: nosniff
+[DEBUG] [2023-05-19 12:06:25,805] http-outgoing-0 << X-Frame-Options: deny
+[DEBUG] [2023-05-19 12:06:25,806] http-outgoing-0 << X-XSS-Protection: 1; mode=block
+[DEBUG] [2023-05-19 12:06:25,806] http-outgoing-0 << X-GitHub-Request-Id: D33E:4572:341F6F:3C76BC:64518A35
+[DEBUG] [2023-05-19 12:06:25,806] http-outgoing-0 << Content-Encoding: gzip
+[DEBUG] [2023-05-19 12:06:25,806] http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] [2023-05-19 12:06:25,807] http-outgoing-0 << Date: Fri, 19 May 2023 05:06:25 GMT
+[DEBUG] [2023-05-19 12:06:25,807] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] [2023-05-19 12:06:25,807] http-outgoing-0 << X-Served-By: cache-qpg1281-QPG
+[DEBUG] [2023-05-19 12:06:25,807] http-outgoing-0 << X-Cache: HIT
+[DEBUG] [2023-05-19 12:06:25,807] http-outgoing-0 << X-Cache-Hits: 1
+[DEBUG] [2023-05-19 12:06:25,808] http-outgoing-0 << X-Timer: S1684472786.744857,VS0,VE1
+[DEBUG] [2023-05-19 12:06:25,808] http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+[DEBUG] [2023-05-19 12:06:25,808] http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG] [2023-05-19 12:06:25,808] http-outgoing-0 << X-Fastly-Request-ID: 3880ea1edc4ca1e91061dcd52ec5719433134545
+[DEBUG] [2023-05-19 12:06:25,808] http-outgoing-0 << Expires: Fri, 19 May 2023 05:11:25 GMT
+[DEBUG] [2023-05-19 12:06:25,809] http-outgoing-0 << Source-Age: 206
+[DEBUG] [2023-05-19 12:06:25,812] ex-0000000001 connection can be kept alive for 3 MINUTES
+[DEBUG] [2023-05-19 12:06:25,822] http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]$7[0xffffffc1]R[0x12]#;[0xffffff94]v[0xffffffbf]~[0xffffffb6][0xfffffff3]1[0xffffff92][0xffffff9a][0xffffffc1][0x1a]x[0xffffffcb][0xffffffb5][0xffffffaf][0xffffffcf]9[0xffffffbe][0xfffffff7]8v[0xb][0x1c][0x1e]E4[0xfffffff6]$x4[0xffffffa1][0xb]*[0xffffffb1][0xffffffd1][0xffffff82][0xfffffffb]%[0xffffff93][0xffffffe0][0xffffffb3][0x10][0xffffffc1][0xffffffe5]qBY,!Y[0xffffffea] KM8,[0x10][0xfffffff0][0x19][0xffffffdd]u[0xffffff82][0x1e][0xffffffb0][0xffffffd8]L[0xffffffcb]%[0xffffff86][0xffffffa1][0xe][0xffffffb8][0xfffffff0]P[0xffffffe8]$[0xf][0x13]t[0x13]3[0xfffffff9][0xffffff84]B2[0xffffffae][0xffffffe6]|@[0xfffffff5][0x1d][0x8][0xffffffc4][0x18][0x16][0xffffff82]o[0xffffffa4][0xffffff9a]P[0xffffff94][0xffffffe7][0xffffffce]R[0xfffffff0][0x8][0xffffffdb]p[0xffffffcb][0x4][0xfffffffa][0xfffffffc][0xffffffb9][\r][0xffffff93][0x15][\n]"
+[DEBUG] [2023-05-19 12:06:25,822] http-outgoing-0 << "[0xffffffda][0xffffff86][0xffffffa1][0x17][0xffffffa8]Q3[0xffffffcb][0xffffffd6][0xffffffd1][0xffffff85][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]s[0x12][0x16][0x7] _d[0xffffff82][0xffffff91][0xffffff84][0xfffffff3][0x1f],[0xfffffff6][0x14]j[0x1b]F,^+[0xffffff98]1ua2[0xffffffbf]h([0xffffff8e][0xffffff94][0xffffffa2][0xffffff91]m[0xffffffa3][0xffffffeb][0xffffff9a][0xffffffb0][0xffffffbb]I[0x17]t[0xffffffdf][0xffffffbd][0xffffffef][0xffffffbb][0xffffff91][0xffffffd7]U[0xffffffbb][0xffffff82][0xffffff9e][0x3][0xffffff9b][0xffffff88][0xffffffb9][0xffffffa6]$[0xffffffa6][0xc][0xffffff9b][0xffffffa5][0xffffffe2][0xffffff83][0xffffff98]F[0xffffffd8]o[0xffffff9e]Mg[0xffffff93][0xffffffbb][0xffffffd9]`|[0xfffffffb]u4[0xffffff9c][0x7f]"}B[0xffffffce][0x8][0xffffffb9][0xffffffe3]<[0x8][0xffffff91][0xffffff90][0xffffff94][0xffffff82][0xffffff90][0xffffffc1]j[0x15]2WI[0xffffffe3]1![0x19][0xffffff91]BnB[0xffffff80][0x9]<f[0xffffffb5][0xffffffe8]=[0xffffffd1]p[0xffffffbd][[0xffffffcf][0xffffffe5][0x1b][0xfffffff4][0xffffff9c][0xffffffff][0xfffffffc][0xfffffff8][0xffffffe1][0xffffffe2][0xffffff94][0xffffffa2][0xffffffae][0xe][0x14]5[0xffffff9a]8[0xffffff83][0xffffffd1]`:[0xfffffffd]<[0xffffffb8][0x1f][0xffffff9c]R[0xffffffcf]u[0x7f]6[0xffffffbc][0xffffff83][0xffffffef][0xf][0xffffffc3][0xffffffd9]/[0xfffffff8][0xfffffff2][0xffffffcd]y s[0xffffffee]'[0x1b]*0g[0xffffffcb][0xffffffc8]nF7H][0xffffff83][0xffffff97]{[0xffffffb1]Q[0x5][\r][0xffffffb5]c[0xffffffb4][0xf][0x2][0xffffffb3][0xffffffb4][0xffffff93][0xe]C[0xffffffa7][0xffffffb3]kAD][0xffffff9d][0xffffffde][0xffffffdb][0xffffffda][0xffffff88][0xffffffec][0xffffffa5][0xffffffbc][0xffffff99][0xffffffd9][0xffffffba]t[0xffffffb5][0xffffffea]9[0xffffffea][0x10])[0xffffffb7][0xffffffca][0xffffff9e][0xfffffff2][0xffffffe2]d^N[0xffffffd8]FW[0x16][0xffffffcd][0xffffffdc]_[0x10][0xfffffff9]i|[0x1c][0xffffff93][0xffffff8e][0xfffffff9]o[0x16][0xffffff86]4'!$G[0xffffffdf]W[0xfffffff4]W*j[[0xfffffff3]xR[0xffffffae][0xffffffb6][0xc][0xffffffd0],; #[0xffffffa9][0xffffff92]5[0xffffffb5][0x7][0xffffff9c][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]jgs[0xfffffffc][0xffffffc2][0xb][0xffffffd9][0x0]t[0xffffff9e]^'Y[0xfffffffb][0xffffff9f][0xffffffb1][0xffffffd8]:[0xffffffbf][0xffffff8d][0xffffffa5][0xffffff9a][0xffffffad][0x7f]m[0x5]&[0xffffffaa][0xffffffa0]^[0xffffff9b][0xffffffcb][0x5]f[0xffffffae][0xffffffe0]RU[0xffffff82][0x10]MS9l[0xffffff91]4t[0xfffffffb][0xffffff8a]][0xffffffd6][0xfffffff4][0xffffff96][0xffffffa6][0xffffff9f]P[0xffffffce][0xffffffd5][0xffffffce][0xffffff93][0xffffffff][0xffffff97][0xffffffcc]p[0xfffffffd][0xfffffff3][0xffffffe8][0x1b][0xffffffcc][0xffffffa2][0xffffffd9]Q[0xffffffbe][0xffffffb2][0xffffffa3][0xffffffc7]m'[0xffffffdf][0xffffffe4][[0xfffffffb]^[0xffffffb0][0xffffff9a][0xffffffbe][0xffffffda][0xffffffda]_[0xffffffce][0xffffff80][0xffffffd2][0xffffffc1]7[0xffffffb7]][0xffffffc1]b[0xffffffee][0xffffffb5][0xffffffff]w[0xffffff83][0xffffffed][0xffffffa7];[0x15]<[0x10]4[0xffffff92][0xffffff84][0x18][\n]"
+[DEBUG] [2023-05-19 12:06:25,823] http-outgoing-0 << "BB[0xffffffba][0xffffff8e]][0xffffffb5]jo[0xffffffb9]+"[0xffffffea][0xffffffb4][0xffffffff]h"[0xffffffea]\?5[0xffffffa9][0xffffffaf]k[0xffffffec][0xffffffff]P[0xffffffea][\n]"
+[DEBUG] [2023-05-19 12:06:25,823] http-outgoing-0 << "w[0xffffffe1]K[0x13][0xffffffda][0xffffffec][0xffffff98][0xffffffe6]Y[0xfffffffd]h8m6[0xffffff9c]T[0xffffffc1][0xfffffff2][0xffffffa7][0xffffff91]z_[0xffffff95]o85p[0x1c][0x13][0xffffffe6][0xfffffff0]5[0xffffffee][0xfffffffc][0xffffff92][0xffffff96][0xffffffda][0xfffffff7][0xffffffcf][0xffffffb1][0x5][0x1d][0xffffffea]K[0xffffff9b]9[0xffffff8e][0xffffffad]e[0xfffffff7][0xffffff93][0xffffffa8]`[0xffffffda][0xffffffff][0x1a][0xffffffd2][0xffffff88][0xffffff85][0xfffffffd][0xfffffff2][0xffffff91]N[0xfffffff6]`[0xffffffdf]2[0xffffffcf][0xffffffae]E[0xffffff97][0xffffffc5][0xffffffa2][0xffffff9d][0xffffffef]'[0xffffff9d]mun.[0xffffffd3]f^[0xffffffc7][0xffffff82][0xffffffda][0xffffff82]9[0xfffffff5][0xffffffa9]`[0x5][0xffffffbc]4[0xffffffa1][0x1d]<M[0xffffffb5]A[0xffffffa7]3[[0xffffffc0][0x7f][0x0][0xffffffc1][0xffffffd0]$[0xffffff85][0x1d][\r][0x0][0x0]"
+[DEBUG] [2023-05-19 12:06:25,825] ep-0000000000 releasing valid endpoint
+[DEBUG] [2023-05-19 12:06:25,825] ep-0000000000 releasing endpoint
+[DEBUG] [2023-05-19 12:06:25,825] ep-0000000000 connection http-outgoing-0 can be kept alive for 3 MINUTES
+[DEBUG] [2023-05-19 12:06:25,826] ep-0000000000 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] [2023-05-19 12:06:25,826] Detecting firefox version using online commands.properties
+[DEBUG] [2023-05-19 12:06:25,831] Running command on the shell: [firefox, -v]
+[DEBUG] [2023-05-19 12:06:25,875] Result: Mozilla Firefox 102.10.0esr
+[TRACE] [2023-05-19 12:06:25,876] Detected browser version is 102.10.0
+[DEBUG] [2023-05-19 12:06:25,878] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:06:25,878] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[DEBUG] [2023-05-19 12:06:25,881] Storing resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[TRACE] [2023-05-19 12:06:25,883] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:06:25,895] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:06:25,896] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:06:25,896] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:06:25,897] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:06:25,899] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:06:30,840] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:06:30,856] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:06:30,856] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:06:30,856] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 12:06:32,005] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 12:06:32,006] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 12:06:32,317] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 12:06:32,424] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 12:06:32,520] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 12:06:32,860] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 12:06:33,216] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 12:06:33,523] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 12:06:33,618] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 12:06:33,763] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:06:33,893] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:06:33,981] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 12:06:34,911] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 12:06:35,026] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:06:35,030] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:06:35,631] After invocation of afterClass
+[DEBUG] [2023-05-19 12:10:25,196] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:10:25,467] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:10:25,468] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:10:25,468] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:10:25,473] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:10:25,480] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:10:25,481] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:10:25,481] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:10:25,482] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:10:25,483] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:10:29,998] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:10:30,013] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:10:30,014] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:10:30,014] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 12:10:31,211] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 12:10:31,212] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 12:10:31,498] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 12:10:31,600] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 12:10:31,693] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 12:10:32,031] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 12:10:32,395] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 12:10:32,756] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 12:10:32,858] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 12:10:32,960] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:10:33,048] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:10:33,135] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 12:10:34,000] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 12:10:34,095] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:10:34,099] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:10:34,791] After invocation of afterClass
+[DEBUG] [2023-05-19 12:13:31,728] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:13:32,023] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:13:32,024] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:13:32,025] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:13:32,030] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:13:32,038] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:13:32,038] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:13:32,039] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:13:32,040] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:13:32,041] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:13:35,141] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:13:35,152] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:13:35,152] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:13:35,152] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:13:35,173] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:13:35,186] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:13:35,542] After invocation of afterClass
+[DEBUG] [2023-05-19 12:18:57,941] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:18:58,221] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:18:58,222] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:18:58,223] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:18:58,228] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:18:58,235] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:18:58,235] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:18:58,235] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:18:58,236] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:18:58,237] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:19:01,599] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:19:01,610] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:19:01,610] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:19:01,611] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:19:01,630] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:19:01,641] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:19:02,045] After invocation of afterClass
+[DEBUG] [2023-05-19 12:20:19,920] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:20:20,189] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:20:20,190] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:20:20,190] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:20:20,195] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:20:20,202] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:20:20,203] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:20:20,203] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:20:20,204] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:20:20,205] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:20:23,616] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:20:23,628] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:20:23,628] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:20:23,629] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:20:23,652] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:20:23,665] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:20:24,070] After invocation of afterClass
+[DEBUG] [2023-05-19 12:28:15,826] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:28:16,095] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:28:16,096] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:28:16,096] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:28:16,102] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:28:16,109] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:28:16,109] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:28:16,109] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:28:16,110] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:28:16,111] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:28:19,404] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:28:19,414] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:28:19,414] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:28:19,415] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:28:19,433] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:28:19,447] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:28:19,852] After invocation of afterClass
+[DEBUG] [2023-05-19 12:31:10,230] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:31:10,502] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:31:10,503] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:31:10,503] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:31:10,508] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:31:10,515] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:31:10,516] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:31:10,516] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:31:10,517] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:31:10,518] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:31:14,028] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:31:14,035] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:31:14,035] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:31:14,036] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:31:14,052] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:31:14,062] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:31:14,416] After invocation of afterClass
+[DEBUG] [2023-05-19 12:32:30,783] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:32:31,085] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:32:31,086] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:32:31,087] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:32:31,092] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:32:31,099] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:32:31,099] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:32:31,100] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:32:31,101] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:32:31,101] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:32:34,551] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:32:34,561] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:32:34,561] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:32:34,561] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:32:34,583] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:32:34,595] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:32:35,000] After invocation of afterClass
+[DEBUG] [2023-05-19 12:34:59,747] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:35:00,013] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:35:00,014] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:35:00,014] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:35:00,020] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:35:00,027] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:35:00,028] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:35:00,028] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:35:00,029] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:35:00,030] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:35:04,695] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:35:04,707] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:35:04,708] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:35:04,708] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 12:35:05,921] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 12:35:05,922] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 12:35:06,212] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 12:35:06,328] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 12:35:06,422] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 12:35:06,756] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 12:35:07,079] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 12:35:07,394] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 12:35:07,491] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 12:35:07,595] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:35:07,726] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:35:07,820] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 12:35:08,713] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 12:35:08,846] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:35:08,850] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:35:09,444] After invocation of afterClass
+[DEBUG] [2023-05-19 12:38:43,235] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:38:43,509] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:38:43,511] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:38:43,511] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:38:43,516] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:38:43,523] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:38:43,524] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:38:43,524] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:38:43,525] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:38:43,526] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:38:46,577] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:38:46,585] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:38:46,586] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:38:46,586] Register - Step 02: Click to 'Register' link 
+[DEBUG] [2023-05-19 12:38:46,602] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:38:46,614] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:38:47,068] After invocation of afterClass
+[DEBUG] [2023-05-19 12:47:12,797] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:47:13,072] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:47:13,074] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:47:13,074] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:47:13,080] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:47:13,087] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:47:13,087] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:47:13,088] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:47:13,089] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:47:13,090] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:47:17,679] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:47:17,689] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:47:17,690] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:47:17,690] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 12:47:18,781] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 12:47:18,782] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 12:47:19,133] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 12:47:19,240] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 12:47:19,333] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 12:47:19,657] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 12:47:19,970] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 12:47:20,320] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 12:47:20,410] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 12:47:20,553] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:47:20,688] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:47:20,824] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 12:47:21,728] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 12:47:21,834] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:47:21,838] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:47:22,429] After invocation of afterClass
+[DEBUG] [2023-05-19 12:51:27,203] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:51:27,476] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:51:27,477] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:51:27,477] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:51:27,482] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:51:27,490] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:51:27,490] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:51:27,490] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:51:27,492] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:51:27,492] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:51:32,046] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:51:32,060] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:51:32,061] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:51:32,061] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 12:51:33,256] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 12:51:33,257] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 12:51:33,554] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 12:51:33,641] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 12:51:33,718] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 12:51:34,031] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 12:51:34,350] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 12:51:34,657] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 12:51:34,750] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 12:51:34,889] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:51:35,019] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:51:35,145] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 12:51:36,055] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 12:51:36,150] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:51:36,154] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:51:36,815] After invocation of afterClass
+[DEBUG] [2023-05-19 12:55:40,613] Before invocation of beforeClass
+[DEBUG] [2023-05-19 12:55:40,903] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 12:55:40,904] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 12:55:40,905] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 12:55:40,910] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 12:55:40,918] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:55:40,918] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 12:55:40,919] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 12:55:40,920] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 12:55:40,921] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 12:55:45,578] After invocation of beforeClass
+[DEBUG] [2023-05-19 12:55:45,590] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 12:55:45,591] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 12:55:45,591] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 12:55:46,729] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 12:55:46,730] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 12:55:47,077] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 12:55:47,186] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 12:55:47,281] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 12:55:47,617] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 12:55:47,938] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 12:55:48,244] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 12:55:48,330] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 12:55:48,426] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:55:48,500] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 12:55:48,576] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 12:55:49,461] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 12:55:49,559] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 12:55:49,564] Before invocation of afterClass
+[DEBUG] [2023-05-19 12:55:50,158] After invocation of afterClass
+[DEBUG] [2023-05-19 13:00:56,621] Before invocation of beforeClass
+[DEBUG] [2023-05-19 13:00:56,918] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 13:00:56,920] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 13:00:56,920] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 13:00:56,925] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 13:00:56,933] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:00:56,933] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:00:56,933] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 13:00:56,934] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 13:00:56,935] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 13:01:01,508] After invocation of beforeClass
+[DEBUG] [2023-05-19 13:01:01,524] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 13:01:01,525] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 13:01:01,525] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 13:01:02,842] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 13:01:02,842] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 13:01:03,131] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 13:01:03,231] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 13:01:03,322] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 13:01:03,645] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 13:01:03,949] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 13:01:04,245] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 13:01:04,338] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 13:01:04,433] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:01:04,508] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:01:04,588] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 13:01:05,510] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 13:01:05,613] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 13:01:05,617] Before invocation of afterClass
+[DEBUG] [2023-05-19 13:01:06,279] After invocation of afterClass
+[DEBUG] [2023-05-19 13:02:38,672] Before invocation of beforeClass
+[DEBUG] [2023-05-19 13:02:38,972] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 13:02:38,974] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 13:02:38,974] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 13:02:38,980] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 13:02:38,987] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:02:38,988] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:02:38,988] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 13:02:38,989] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 13:02:38,990] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 13:02:43,609] After invocation of beforeClass
+[DEBUG] [2023-05-19 13:02:43,622] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 13:02:43,622] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 13:02:43,623] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 13:02:44,367] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 13:02:44,367] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 13:02:44,664] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 13:02:44,764] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 13:02:44,892] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 13:02:45,219] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 13:02:45,575] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 13:02:45,920] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 13:02:46,012] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 13:02:46,109] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:02:46,188] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:02:46,267] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 13:02:47,125] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 13:02:47,187] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 13:02:47,189] Before invocation of afterClass
+[DEBUG] [2023-05-19 13:02:47,874] After invocation of afterClass
+[DEBUG] [2023-05-19 13:05:02,719] Before invocation of beforeClass
+[DEBUG] [2023-05-19 13:05:03,014] Resolution firefox=102 in cache (valid until 13:06:25 19/05/2023 ICT)
+[DEBUG] [2023-05-19 13:05:03,016] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 13:05:03,016] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 13:05:03,024] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 13:05:03,031] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:05:03,031] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:05:03,032] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 13:05:03,033] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 13:05:03,034] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 13:05:07,809] After invocation of beforeClass
+[DEBUG] [2023-05-19 13:05:07,818] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 13:05:07,818] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 13:05:07,819] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 13:05:08,502] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 13:05:08,503] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 13:05:08,795] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 13:05:08,936] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 13:05:09,064] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 13:05:09,389] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 13:05:09,745] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 13:05:10,091] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 13:05:10,229] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 13:05:10,323] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:05:10,393] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:05:10,464] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 13:05:11,369] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 13:05:11,431] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 13:05:11,435] Before invocation of afterClass
+[DEBUG] [2023-05-19 13:05:12,018] After invocation of afterClass
+[DEBUG] [2023-05-19 13:20:46,295] Before invocation of beforeClass
+[DEBUG] [2023-05-19 13:20:46,563] Resolution firefox=102 in cache (valid until 14:09:06 19/05/2023 ICT)
+[DEBUG] [2023-05-19 13:20:46,564] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 13:20:46,565] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 13:20:46,570] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 13:20:46,577] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:20:46,577] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:20:46,577] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 13:20:46,578] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 13:20:46,579] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 13:20:51,132] After invocation of beforeClass
+[DEBUG] [2023-05-19 13:20:51,146] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 13:20:51,147] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 13:20:51,147] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 13:20:52,344] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 13:20:52,344] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 13:20:52,631] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 13:20:52,732] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 13:20:52,821] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 13:20:53,135] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 13:20:53,432] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 13:20:53,786] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 13:20:53,927] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 13:20:54,027] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:20:54,100] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:20:54,179] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 13:20:55,012] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 13:20:55,104] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 13:20:55,108] Before invocation of afterClass
+[DEBUG] [2023-05-19 13:20:55,770] After invocation of afterClass
+[DEBUG] [2023-05-19 13:23:11,982] Before invocation of beforeClass
+[DEBUG] [2023-05-19 13:23:12,297] Resolution firefox=102 in cache (valid until 14:09:06 19/05/2023 ICT)
+[DEBUG] [2023-05-19 13:23:12,298] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 13:23:12,299] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 13:23:12,304] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 13:23:12,311] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:23:12,312] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 13:23:12,312] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 13:23:12,313] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 13:23:12,314] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 13:23:17,023] After invocation of beforeClass
+[DEBUG] [2023-05-19 13:23:17,032] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 13:23:17,033] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 13:23:17,033] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 13:23:18,185] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 13:23:18,185] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 13:23:18,480] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 13:23:18,576] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 13:23:18,664] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 13:23:18,983] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 13:23:19,285] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 13:23:19,580] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 13:23:19,710] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 13:23:19,805] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:23:19,877] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 13:23:20,002] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 13:23:20,850] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 13:23:20,943] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 13:23:20,948] Before invocation of afterClass
+[DEBUG] [2023-05-19 13:23:21,613] After invocation of afterClass
+[DEBUG] [2023-05-19 14:33:13,653] Before invocation of beforeClass
+[DEBUG] [2023-05-19 14:33:13,926] Resolution firefox=102 in cache (valid until 15:30:53 19/05/2023 ICT)
+[DEBUG] [2023-05-19 14:33:13,927] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 14:33:13,928] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 14:33:13,933] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 14:33:13,940] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:33:13,940] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:33:13,941] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 14:33:13,942] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 14:33:13,943] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 14:33:18,116] After invocation of beforeClass
+[DEBUG] [2023-05-19 14:33:18,124] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 14:33:18,125] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 14:33:18,125] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 14:33:19,380] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 14:33:19,381] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 14:33:19,717] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 14:33:19,796] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 14:33:19,877] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 14:33:20,200] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 14:33:20,505] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 14:33:20,794] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 14:33:20,893] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 14:33:20,998] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:33:21,076] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:33:21,156] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 14:33:22,648] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 14:33:22,739] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 14:33:22,743] Before invocation of afterClass
+[DEBUG] [2023-05-19 14:33:23,407] After invocation of afterClass
+[DEBUG] [2023-05-19 14:34:14,544] Before invocation of beforeClass
+[DEBUG] [2023-05-19 14:34:14,827] Resolution firefox=102 in cache (valid until 15:30:53 19/05/2023 ICT)
+[DEBUG] [2023-05-19 14:34:14,828] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 14:34:14,828] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 14:34:14,834] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 14:34:14,841] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:34:14,842] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:34:14,842] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 14:34:14,843] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 14:34:14,844] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 14:34:19,367] After invocation of beforeClass
+[DEBUG] [2023-05-19 14:34:19,382] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 14:34:19,382] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 14:34:19,383] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 14:34:19,994] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 14:34:19,994] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 14:34:20,283] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 14:34:20,437] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 14:34:20,532] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 14:34:20,910] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 14:34:21,275] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 14:34:21,636] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 14:34:21,737] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 14:34:21,836] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:34:21,969] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:34:22,102] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 14:34:23,040] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 14:34:23,100] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 14:34:23,104] Before invocation of afterClass
+[DEBUG] [2023-05-19 14:34:23,770] After invocation of afterClass
+[DEBUG] [2023-05-19 14:52:17,515] Before invocation of beforeClass
+[DEBUG] [2023-05-19 14:52:17,799] Resolution firefox=102 in cache (valid until 15:30:53 19/05/2023 ICT)
+[DEBUG] [2023-05-19 14:52:17,800] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 14:52:17,801] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 14:52:17,806] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 14:52:17,814] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:52:17,814] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:52:17,815] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 14:52:17,816] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 14:52:17,817] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 14:52:22,442] After invocation of beforeClass
+[DEBUG] [2023-05-19 14:52:22,457] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 14:52:22,458] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 14:52:22,458] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 14:52:23,589] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 14:52:23,589] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 14:52:23,869] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 14:52:23,950] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 14:52:24,031] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 14:52:24,339] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 14:52:24,702] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 14:52:25,012] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 14:52:25,110] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 14:52:25,192] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:52:25,313] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:52:25,434] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 14:52:26,813] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 14:52:26,967] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 14:52:26,971] Before invocation of afterClass
+[DEBUG] [2023-05-19 14:52:27,551] After invocation of afterClass
+[DEBUG] [2023-05-19 14:57:38,983] Before invocation of beforeClass
+[DEBUG] [2023-05-19 14:57:39,268] Resolution firefox=102 in cache (valid until 15:30:53 19/05/2023 ICT)
+[DEBUG] [2023-05-19 14:57:39,270] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 14:57:39,270] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 14:57:39,276] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 14:57:39,283] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:57:39,284] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 14:57:39,284] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 14:57:39,285] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 14:57:39,286] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 14:57:43,484] After invocation of beforeClass
+[DEBUG] [2023-05-19 14:57:43,503] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 14:57:43,503] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 14:57:43,504] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 14:57:44,689] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 14:57:44,690] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 14:57:44,980] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 14:57:45,130] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 14:57:45,222] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 14:57:45,557] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 14:57:45,919] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 14:57:46,235] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 14:57:46,332] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 14:57:46,437] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:57:46,519] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 14:57:46,613] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 14:57:47,462] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 14:57:47,554] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 14:57:47,558] Before invocation of afterClass
+[DEBUG] [2023-05-19 14:57:48,256] After invocation of afterClass
+[DEBUG] [2023-05-19 15:00:22,133] Before invocation of beforeClass
+[DEBUG] [2023-05-19 15:00:22,408] Resolution firefox=102 in cache (valid until 15:30:53 19/05/2023 ICT)
+[DEBUG] [2023-05-19 15:00:22,410] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 15:00:22,410] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[TRACE] [2023-05-19 15:00:22,416] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 15:00:22,424] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 15:00:22,424] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 15:00:22,425] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 15:00:22,426] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 15:00:22,427] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 15:00:27,138] After invocation of beforeClass
+[DEBUG] [2023-05-19 15:00:27,150] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 15:00:27,151] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 15:00:27,151] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 15:00:28,303] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 15:00:28,304] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 15:00:28,598] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 15:00:28,722] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 15:00:28,802] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 15:00:29,132] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 15:00:29,455] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 15:00:29,770] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 15:00:29,872] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 15:00:29,976] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 15:00:30,109] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 15:00:30,243] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 15:00:31,150] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 15:00:31,254] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 15:00:31,258] Before invocation of afterClass
+[DEBUG] [2023-05-19 15:00:31,953] After invocation of afterClass
+[DEBUG] [2023-05-19 15:43:14,992] Before invocation of beforeClass
+[DEBUG] [2023-05-19 15:43:15,276] Removing resolution firefox=102 from cache (expired on 2023-05-19T15:30:53.000+0700)
+[TRACE] [2023-05-19 15:43:15,283] Reading online commands.properties to find out driver version
+[DEBUG] [2023-05-19 15:43:15,292] ex-0000000001 preparing request execution
+[DEBUG] [2023-05-19 15:43:15,317] ex-0000000001 Cookie spec selected: strict
+[DEBUG] [2023-05-19 15:43:15,322] ex-0000000001 Auth cache not set in the context
+[DEBUG] [2023-05-19 15:43:15,322] ex-0000000001 target auth state: UNCHALLENGED
+[DEBUG] [2023-05-19 15:43:15,323] ex-0000000001 proxy auth state: UNCHALLENGED
+[DEBUG] [2023-05-19 15:43:15,324] ex-0000000001 acquiring connection with route {s}->https://raw.githubusercontent.com:443
+[DEBUG] [2023-05-19 15:43:15,324] ex-0000000001 acquiring endpoint (3 MINUTES)
+[DEBUG] [2023-05-19 15:43:15,326] ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+[DEBUG] [2023-05-19 15:43:15,330] ex-0000000001 endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] [2023-05-19 15:43:15,338] ex-0000000001 acquired ep-0000000000
+[DEBUG] [2023-05-19 15:43:15,338] ex-0000000001 acquired endpoint ep-0000000000
+[DEBUG] [2023-05-19 15:43:15,339] ex-0000000001 opening connection {s}->https://raw.githubusercontent.com:443
+[DEBUG] [2023-05-19 15:43:15,339] ep-0000000000 connecting endpoint (30 SECONDS)
+[DEBUG] [2023-05-19 15:43:15,340] ep-0000000000 connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+[DEBUG] [2023-05-19 15:43:15,398] http-outgoing-0 connecting to raw.githubusercontent.com/185.199.110.133:443
+[DEBUG] [2023-05-19 15:43:15,398] Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 30 SECONDS
+[DEBUG] [2023-05-19 15:43:15,507] Enabled protocols: [TLSv1.3, TLSv1.2]
+[DEBUG] [2023-05-19 15:43:15,508] Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] [2023-05-19 15:43:15,509] Starting handshake
+[DEBUG] [2023-05-19 15:43:15,645] Secure session established
+[DEBUG] [2023-05-19 15:43:15,645]  negotiated protocol: TLSv1.3
+[DEBUG] [2023-05-19 15:43:15,645]  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+[DEBUG] [2023-05-19 15:43:15,646]  peer principal: CN=*.github.io, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+[DEBUG] [2023-05-19 15:43:15,647]  peer alternative names: [*.github.io, github.io, *.github.com, github.com, www.github.com, *.githubusercontent.com, githubusercontent.com]
+[DEBUG] [2023-05-19 15:43:15,647]  issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
+[DEBUG] [2023-05-19 15:43:15,648] http-outgoing-0 connection established 192.168.88.244:52648<->185.199.110.133:443
+[DEBUG] [2023-05-19 15:43:15,648] ep-0000000000 connected http-outgoing-0
+[DEBUG] [2023-05-19 15:43:15,649] ep-0000000000 endpoint connected
+[DEBUG] [2023-05-19 15:43:15,649] ex-0000000001 executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] [2023-05-19 15:43:15,649] ep-0000000000 start execution ex-0000000001
+[DEBUG] [2023-05-19 15:43:15,650] ep-0000000000 executing exchange ex-0000000001 over http-outgoing-0
+[DEBUG] [2023-05-19 15:43:15,650] http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] [2023-05-19 15:43:15,650] http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+[DEBUG] [2023-05-19 15:43:15,651] http-outgoing-0 >> accept-encoding: gzip, deflate, br
+[DEBUG] [2023-05-19 15:43:15,651] http-outgoing-0 >> cache-control: max-age=0
+[DEBUG] [2023-05-19 15:43:15,651] http-outgoing-0 >> connection: keep-alive
+[DEBUG] [2023-05-19 15:43:15,651] http-outgoing-0 >> Host: raw.githubusercontent.com
+[DEBUG] [2023-05-19 15:43:15,652] http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,652] http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,652] http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,652] http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,652] http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,653] http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,653] http-outgoing-0 >> "[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,715] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,716] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,716] http-outgoing-0 << "Content-Length: 723[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,716] http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,716] http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,717] http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,717] http-outgoing-0 << "ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,717] http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,717] http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,718] http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,718] http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,718] http-outgoing-0 << "X-GitHub-Request-Id: D33E:4572:341F6F:3C76BC:64518A35[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,718] http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,718] http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,719] http-outgoing-0 << "Date: Fri, 19 May 2023 08:43:15 GMT[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,719] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,719] http-outgoing-0 << "X-Served-By: cache-qpg1245-QPG[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,720] http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,720] http-outgoing-0 << "X-Cache-Hits: 2[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,720] http-outgoing-0 << "X-Timer: S1684485796.672039,VS0,VE0[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,720] http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,721] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,721] http-outgoing-0 << "X-Fastly-Request-ID: 115417200a3f4f8cb32f99e53d05eda535be6e1c[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,721] http-outgoing-0 << "Expires: Fri, 19 May 2023 08:48:15 GMT[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,721] http-outgoing-0 << "Source-Age: 184[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,722] http-outgoing-0 << "[\r][\n]"
+[DEBUG] [2023-05-19 15:43:15,725] http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] [2023-05-19 15:43:15,725] http-outgoing-0 << Connection: keep-alive
+[DEBUG] [2023-05-19 15:43:15,725] http-outgoing-0 << Content-Length: 723
+[DEBUG] [2023-05-19 15:43:15,726] http-outgoing-0 << Cache-Control: max-age=300
+[DEBUG] [2023-05-19 15:43:15,726] http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+[DEBUG] [2023-05-19 15:43:15,726] http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[DEBUG] [2023-05-19 15:43:15,726] http-outgoing-0 << ETag: W/"e82b438271e9e8680c688b0b680efd0bdd22faa6d6f0a32fc1fd8accc486b67e"
+[DEBUG] [2023-05-19 15:43:15,727] http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+[DEBUG] [2023-05-19 15:43:15,727] http-outgoing-0 << X-Content-Type-Options: nosniff
+[DEBUG] [2023-05-19 15:43:15,727] http-outgoing-0 << X-Frame-Options: deny
+[DEBUG] [2023-05-19 15:43:15,727] http-outgoing-0 << X-XSS-Protection: 1; mode=block
+[DEBUG] [2023-05-19 15:43:15,728] http-outgoing-0 << X-GitHub-Request-Id: D33E:4572:341F6F:3C76BC:64518A35
+[DEBUG] [2023-05-19 15:43:15,728] http-outgoing-0 << Content-Encoding: gzip
+[DEBUG] [2023-05-19 15:43:15,728] http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] [2023-05-19 15:43:15,729] http-outgoing-0 << Date: Fri, 19 May 2023 08:43:15 GMT
+[DEBUG] [2023-05-19 15:43:15,729] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] [2023-05-19 15:43:15,729] http-outgoing-0 << X-Served-By: cache-qpg1245-QPG
+[DEBUG] [2023-05-19 15:43:15,729] http-outgoing-0 << X-Cache: HIT
+[DEBUG] [2023-05-19 15:43:15,730] http-outgoing-0 << X-Cache-Hits: 2
+[DEBUG] [2023-05-19 15:43:15,730] http-outgoing-0 << X-Timer: S1684485796.672039,VS0,VE0
+[DEBUG] [2023-05-19 15:43:15,730] http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+[DEBUG] [2023-05-19 15:43:15,730] http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG] [2023-05-19 15:43:15,731] http-outgoing-0 << X-Fastly-Request-ID: 115417200a3f4f8cb32f99e53d05eda535be6e1c
+[DEBUG] [2023-05-19 15:43:15,731] http-outgoing-0 << Expires: Fri, 19 May 2023 08:48:15 GMT
+[DEBUG] [2023-05-19 15:43:15,731] http-outgoing-0 << Source-Age: 184
+[DEBUG] [2023-05-19 15:43:15,735] ex-0000000001 connection can be kept alive for 3 MINUTES
+[DEBUG] [2023-05-19 15:43:15,744] http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]$7[0xffffffc1]R[0x12]#;[0xffffff94]v[0xffffffbf]~[0xffffffb6][0xfffffff3]1[0xffffff92][0xffffff9a][0xffffffc1][0x1a]x[0xffffffcb][0xffffffb5][0xffffffaf][0xffffffcf]9[0xffffffbe][0xfffffff7]8v[0xb][0x1c][0x1e]E4[0xfffffff6]$x4[0xffffffa1][0xb]*[0xffffffb1][0xffffffd1][0xffffff82][0xfffffffb]%[0xffffff93][0xffffffe0][0xffffffb3][0x10][0xffffffc1][0xffffffe5]qBY,!Y[0xffffffea] KM8,[0x10][0xfffffff0][0x19][0xffffffdd]u[0xffffff82][0x1e][0xffffffb0][0xffffffd8]L[0xffffffcb]%[0xffffff86][0xffffffa1][0xe][0xffffffb8][0xfffffff0]P[0xffffffe8]$[0xf][0x13]t[0x13]3[0xfffffff9][0xffffff84]B2[0xffffffae][0xffffffe6]|@[0xfffffff5][0x1d][0x8][0xffffffc4][0x18][0x16][0xffffff82]o[0xffffffa4][0xffffff9a]P[0xffffff94][0xffffffe7][0xffffffce]R[0xfffffff0][0x8][0xffffffdb]p[0xffffffcb][0x4][0xfffffffa][0xfffffffc][0xffffffb9][\r][0xffffff93][0x15][\n]"
+[DEBUG] [2023-05-19 15:43:15,745] http-outgoing-0 << "[0xffffffda][0xffffff86][0xffffffa1][0x17][0xffffffa8]Q3[0xffffffcb][0xffffffd6][0xffffffd1][0xffffff85][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]s[0x12][0x16][0x7] _d[0xffffff82][0xffffff91][0xffffff84][0xfffffff3][0x1f],[0xfffffff6][0x14]j[0x1b]F,^+[0xffffff98]1ua2[0xffffffbf]h([0xffffff8e][0xffffff94][0xffffffa2][0xffffff91]m[0xffffffa3][0xffffffeb][0xffffff9a][0xffffffb0][0xffffffbb]I[0x17]t[0xffffffdf][0xffffffbd][0xffffffef][0xffffffbb][0xffffff91][0xffffffd7]U[0xffffffbb][0xffffff82][0xffffff9e][0x3][0xffffff9b][0xffffff88][0xffffffb9][0xffffffa6]$[0xffffffa6][0xc][0xffffff9b][0xffffffa5][0xffffffe2][0xffffff83][0xffffff98]F[0xffffffd8]o[0xffffff9e]Mg[0xffffff93][0xffffffbb][0xffffffd9]`|[0xfffffffb]u4[0xffffff9c][0x7f]"}B[0xffffffce][0x8][0xffffffb9][0xffffffe3]<[0x8][0xffffff91][0xffffff90][0xffffff94][0xffffff82][0xffffff90][0xffffffc1]j[0x15]2WI[0xffffffe3]1![0x19][0xffffff91]BnB[0xffffff80][0x9]<f[0xffffffb5][0xffffffe8]=[0xffffffd1]p[0xffffffbd][[0xffffffcf][0xffffffe5][0x1b][0xfffffff4][0xffffff9c][0xffffffff][0xfffffffc][0xfffffff8][0xffffffe1][0xffffffe2][0xffffff94][0xffffffa2][0xffffffae][0xe][0x14]5[0xffffff9a]8[0xffffff83][0xffffffd1]`:[0xfffffffd]<[0xffffffb8][0x1f][0xffffff9c]R[0xffffffcf]u[0x7f]6[0xffffffbc][0xffffff83][0xffffffef][0xf][0xffffffc3][0xffffffd9]/[0xfffffff8][0xfffffff2][0xffffffcd]y s[0xffffffee]'[0x1b]*0g[0xffffffcb][0xffffffc8]nF7H][0xffffff83][0xffffff97]{[0xffffffb1]Q[0x5][\r][0xffffffb5]c[0xffffffb4][0xf][0x2][0xffffffb3][0xffffffb4][0xffffff93][0xe]C[0xffffffa7][0xffffffb3]kAD][0xffffff9d][0xffffffde][0xffffffdb][0xffffffda][0xffffff88][0xffffffec][0xffffffa5][0xffffffbc][0xffffff99][0xffffffd9][0xffffffba]t[0xffffffb5][0xffffffea]9[0xffffffea][0x10])[0xffffffb7][0xffffffca][0xffffff9e][0xfffffff2][0xffffffe2]d^N[0xffffffd8]FW[0x16][0xffffffcd][0xffffffdc]_[0x10][0xfffffff9]i|[0x1c][0xffffff93][0xffffff8e][0xfffffff9]o[0x16][0xffffff86]4'!$G[0xffffffdf]W[0xfffffff4]W*j[[0xfffffff3]xR[0xffffffae][0xffffffb6][0xc][0xffffffd0],; #[0xffffffa9][0xffffff92]5[0xffffffb5][0x7][0xffffff9c][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]jgs[0xfffffffc][0xffffffc2][0xb][0xffffffd9][0x0]t[0xffffff9e]^'Y[0xfffffffb][0xffffff9f][0xffffffb1][0xffffffd8]:[0xffffffbf][0xffffff8d][0xffffffa5][0xffffff9a][0xffffffad][0x7f]m[0x5]&[0xffffffaa][0xffffffa0]^[0xffffff9b][0xffffffcb][0x5]f[0xffffffae][0xffffffe0]RU[0xffffff82][0x10]MS9l[0xffffff91]4t[0xfffffffb][0xffffff8a]][0xffffffd6][0xfffffff4][0xffffff96][0xffffffa6][0xffffff9f]P[0xffffffce][0xffffffd5][0xffffffce][0xffffff93][0xffffffff][0xffffff97][0xffffffcc]p[0xfffffffd][0xfffffff3][0xffffffe8][0x1b][0xffffffcc][0xffffffa2][0xffffffd9]Q[0xffffffbe][0xffffffb2][0xffffffa3][0xffffffc7]m'[0xffffffdf][0xffffffe4][[0xfffffffb]^[0xffffffb0][0xffffff9a][0xffffffbe][0xffffffda][0xffffffda]_[0xffffffce][0xffffff80][0xffffffd2][0xffffffc1]7[0xffffffb7]][0xffffffc1]b[0xffffffee][0xffffffb5][0xffffffff]w[0xffffff83][0xffffffed][0xffffffa7];[0x15]<[0x10]4[0xffffff92][0xffffff84][0x18][\n]"
+[DEBUG] [2023-05-19 15:43:15,745] http-outgoing-0 << "BB[0xffffffba][0xffffff8e]][0xffffffb5]jo[0xffffffb9]+"[0xffffffea][0xffffffb4][0xffffffff]h"[0xffffffea]\?5[0xffffffa9][0xffffffaf]k[0xffffffec][0xffffffff]P[0xffffffea][\n]"
+[DEBUG] [2023-05-19 15:43:15,746] http-outgoing-0 << "w[0xffffffe1]K[0x13][0xffffffda][0xffffffec][0xffffff98][0xffffffe6]Y[0xfffffffd]h8m6[0xffffff9c]T[0xffffffc1][0xfffffff2][0xffffffa7][0xffffff91]z_[0xffffff95]o85p[0x1c][0x13][0xffffffe6][0xfffffff0]5[0xffffffee][0xfffffffc][0xffffff92][0xffffff96][0xffffffda][0xfffffff7][0xffffffcf][0xffffffb1][0x5][0x1d][0xffffffea]K[0xffffff9b]9[0xffffff8e][0xffffffad]e[0xfffffff7][0xffffff93][0xffffffa8]`[0xffffffda][0xffffffff][0x1a][0xffffffd2][0xffffff88][0xffffff85][0xfffffffd][0xfffffff2][0xffffff91]N[0xfffffff6]`[0xffffffdf]2[0xffffffcf][0xffffffae]E[0xffffff97][0xffffffc5][0xffffffa2][0xffffff9d][0xffffffef]'[0xffffff9d]mun.[0xffffffd3]f^[0xffffffc7][0xffffff82][0xffffffda][0xffffff82]9[0xfffffff5][0xffffffa9]`[0x5][0xffffffbc]4[0xffffffa1][0x1d]<M[0xffffffb5]A[0xffffffa7]3[[0xffffffc0][0x7f][0x0][0xffffffc1][0xffffffd0]$[0xffffff85][0x1d][\r][0x0][0x0]"
+[DEBUG] [2023-05-19 15:43:15,748] ep-0000000000 releasing valid endpoint
+[DEBUG] [2023-05-19 15:43:15,748] ep-0000000000 releasing endpoint
+[DEBUG] [2023-05-19 15:43:15,748] ep-0000000000 connection http-outgoing-0 can be kept alive for 3 MINUTES
+[DEBUG] [2023-05-19 15:43:15,749] ep-0000000000 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] [2023-05-19 15:43:15,749] Detecting firefox version using online commands.properties
+[DEBUG] [2023-05-19 15:43:15,754] Running command on the shell: [firefox, -v]
+[DEBUG] [2023-05-19 15:43:15,796] Result: Mozilla Firefox 102.10.0esr
+[TRACE] [2023-05-19 15:43:15,797] Detected browser version is 102.10.0
+[DEBUG] [2023-05-19 15:43:15,798] Resolution firefox102=0.31.0 in cache (valid until 11:17:53 20/05/2023 ICT)
+[INFO ] [2023-05-19 15:43:15,799] Using geckodriver 0.31.0 (resolved driver for Firefox 102)
+[DEBUG] [2023-05-19 15:43:15,802] Storing resolution firefox=102 in cache (valid until 16:43:15 19/05/2023 ICT)
+[TRACE] [2023-05-19 15:43:15,803] Checking if geckodriver exists in cache
+[TRACE] [2023-05-19 15:43:15,813] Filter cache by geckodriver -- input list [/home/thao/.cache/selenium/chromedriver/linux64/113.0.5672.63/chromedriver, /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver, /home/thao/.cache/selenium/resolution.properties] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 15:43:15,814] Filter cache by 0.31.0 -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[TRACE] [2023-05-19 15:43:15,814] Filter cache by LINUX -- input list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] -- output list [/home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver] 
+[DEBUG] [2023-05-19 15:43:15,816] Driver geckodriver 0.31.0 found in cache
+[INFO ] [2023-05-19 15:43:15,817] Exporting webdriver.gecko.driver as /home/thao/.cache/selenium/geckodriver/linux64/0.31.0/geckodriver
+[DEBUG] [2023-05-19 15:43:19,934] After invocation of beforeClass
+[DEBUG] [2023-05-19 15:43:19,947] Before invocation of User_00_Register_TO_System
+[INFO ] [2023-05-19 15:43:19,948] Register - Step 01: Navigate to 'Home' page
+[INFO ] [2023-05-19 15:43:19,948] Register - Step 02: Click to 'Register' link 
+[INFO ] [2023-05-19 15:43:21,196] Register - Step 03: Navigate to 'Register' page 
+[INFO ] [2023-05-19 15:43:21,196] Register - Step 04: Click to 'Female' gender 
+[INFO ] [2023-05-19 15:43:21,479] Register - Step 05: Enter to Firstname texbox with value is + 'firstName' + 
+[INFO ] [2023-05-19 15:43:21,583] Register - Step 06: Enter to lastName textbox with value is + 'lastName'+ 
+[INFO ] [2023-05-19 15:43:21,718] Register - Step 07: Select to day of birth dropdown
+[INFO ] [2023-05-19 15:43:22,063] Register - Step 08: Select to month of birth dropdown
+[INFO ] [2023-05-19 15:43:22,419] Register - Step 09: Select to year of birth dropdown
+[INFO ] [2023-05-19 15:43:22,729] Register - Step 10 : Enter to Email textbox with value is + 'emailAdress'+
+[INFO ] [2023-05-19 15:43:22,869] Register - Step 11 : Enter to companyName textbox with value is + 'companyName'+ 
+[INFO ] [2023-05-19 15:43:23,014] Register - Step 12 : Enter to confirm Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 15:43:23,144] Register - Step 13 : Enter to Userpassword textbox with value is + 'userPassword'+
+[INFO ] [2023-05-19 15:43:23,278] Register- Step 14: Click to Register button
+[INFO ] [2023-05-19 15:43:24,200] Register - Step 15: Verify get registered sucess message
+[DEBUG] [2023-05-19 15:43:24,290] After invocation of User_00_Register_TO_System
+[DEBUG] [2023-05-19 15:43:24,295] Before invocation of User_01_Login_To_System
+[DEBUG] [2023-05-19 15:43:26,753] After invocation of User_01_Login_To_System
+[DEBUG] [2023-05-19 15:43:26,946] Before invocation of User_02_Swith_To_DiffirentPage
+[DEBUG] [2023-05-19 15:43:31,381] After invocation of User_02_Swith_To_DiffirentPage
+[DEBUG] [2023-05-19 15:43:31,383] Before invocation of afterClass
+[DEBUG] [2023-05-19 15:43:31,979] After invocation of afterClass

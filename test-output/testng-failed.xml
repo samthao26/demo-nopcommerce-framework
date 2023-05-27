@@ -14,7 +14,7 @@
       <class name="com.nopcommerce.user.User_00_Registation_Login_Nopcommerce">
         <methods>
           <include name="beforeClass"/>
-          <include name="User_00_Register_TO_System"/>
+          <include name="User_01_Login_To_System"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.nopcommerce.user.User_00_Registation_Login_Nopcommerce -->

@@ -24,7 +24,8 @@ public class User_01_Register extends BaseTest {
 	userPassword = "12345678";
 	homePage = UserPageGeneratorManager.getHomePage(driver);
 	Assert.assertTrue(homePage.isHomePageSliderDispayed());
-	registerPage = homePage.clickToRegisterLink();
+	homePage.clickToHeaderLink(driver, "Register");
+	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 }
 @Test
 public void User_01_Register_With_Empty_Data() {
@@ -79,7 +80,8 @@ public void User_05_Register_With_Valid_Data() {
 public void User_06_Register_With_Existing_Email() {
 	homePage = registerPage.clickToContinueButton();
 	verifyTrue(homePage.isHomePageSliderDispayed());
-	registerPage= homePage.clickToRegisterLink();
+	homePage.clickToHeaderLink(driver, "Register");
+	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 	registerPage.inputToFirstNameTextbox(firstName);
 	registerPage.inputToLastNameTextbox(lastName);
 	registerPage.inputToEmailTextbox(emailAdress);
