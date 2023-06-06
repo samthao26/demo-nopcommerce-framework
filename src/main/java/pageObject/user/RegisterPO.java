@@ -12,7 +12,7 @@ public class RegisterPO extends BasePage{
 
 public RegisterPO(WebDriver driver) {
 	this.driver = driver;
-		// TODO Auto-generated constructor stub
+	
 	}
 
 public void clickToGenderFemaleRadio() {

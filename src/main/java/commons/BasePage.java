@@ -145,7 +145,7 @@ public class BasePage {
 		getWebElement(driver, locator).click();
 	}
 	public void clickToElement(WebDriver driver, String locatorType, String...dynamicValues) {
-		getElement(driver, locatorType, dynamicValues).click();
+		getElement(driver, getDynamicLocator(locatorType, dynamicValues)).click();
 	}
 	public void sendkeyToElement(WebDriver driver, String locator, String keyValueToSend) {
 		WebElement element = getWebElement(driver, locator);
@@ -225,10 +225,11 @@ public class BasePage {
 	public void waitForElementClickable(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));	
 	}
-	public void waitForElementClickable(WebDriver driver, String locatorType, String ...dynamicValues) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(getDynamicLocator(locatorType, dynamicValues))));
+	
+	public void waitForElementClickable(WebDriver driver, String locatorType, String... dynamicValues) {
+		 new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(byXpath(getDynamicLocator(locatorType, dynamicValues))));
 	}
-
+	
 	public void waitForElementInvisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locator)));
 	}

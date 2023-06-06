@@ -12,16 +12,7 @@ WebDriver driver;
 		this.driver = driver;
 	}
 
-	public boolean getErrorLoginMessage() {
-		// TODO Auto-generated method stub
-		return false;
-
-	public HomePO clickToLoginButton() {
-		waitForElementClickable(driver, UserLoginUI.LOGIN_BUTTON);
-		clickToElement(driver, UserLoginUI.LOGIN_BUTTON);
-		return UserPageGeneratorManager.getHomePage(driver);
 	
-	}
 
 	public Object getEmailErrorMessage() {
 		waitForElementVisible(driver, UserLoginUI.EMAIL_ERROR_MESSAGE);
