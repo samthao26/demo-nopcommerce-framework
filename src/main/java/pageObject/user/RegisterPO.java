@@ -107,5 +107,11 @@ public HomePO clickToContinueButton() {
 	return UserPageGeneratorManager.getHomePage(driver);
 }
 
+public void clickToLogoutLink() {
+	waitForElementClickable(driver, UserRegisterUI.LOGOUT_LINK);
+	clickToElement(driver, UserRegisterUI.LOGOUT_LINK);
+	
+}
+
 }
 

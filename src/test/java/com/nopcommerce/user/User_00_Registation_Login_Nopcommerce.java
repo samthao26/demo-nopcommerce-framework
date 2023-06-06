@@ -28,7 +28,7 @@ import pageObject.user.ShippingAndReturnPO;
 import pageObject.user.UserPageGeneratorManager;
 
 
-@Listeners(reportConfig.ReportNGListener.class)
+@Listeners()
 public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	
 @Parameters({"browser", "appUrl"})
@@ -81,6 +81,7 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 }
 @Test
 	public void User_01_Login_To_System() {
+
 	log.info("User_01 - Step 01: Click to 'Register' link ");
 	loginPage = registerPage.clickToLoginLink();
 	log.info("User_01 - Step 02: Enter to Email textbox with value is + 'emailAdress'+");
@@ -105,22 +106,34 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	verifyEquals(customeInforPage.getyearOfBirthDropdown(), "2000");
 	verifyEquals(customeInforPage.getEmailTextbox(), emailAdress);
 	verifyEquals(customeInforPage.getCompanyNameTextbox(), "Automation Group");
-	
-	
 }
 
 @Test
 	public void User_02_Swith_To_DiffirentPage() {
-	addressPage = customeInforPage.openAddreses(driver);
-	oderPage = addressPage.openOderPage(driver);
-	downloadableProductsPage = oderPage.openDownloadableProductsPage(driver);
-	backInStockSubscriptionsPage= downloadableProductsPage.openBackInStockSubscriptionsPage(driver);
-	rewardPointsPage = backInStockSubscriptionsPage.openRewardPointsPage(driver);
-	changePasswordPage = rewardPointsPage.openChangePasswordPage(driver);
-	searchPage = changePasswordPage.openSearchPage(driver);
-	shippingAndReturnPage = searchPage.openShippingAndReturnPage(driver);
-	
-	
+	log.info("User_02_Login Step 01:Navigate to 'Addreses' page ");
+	customeInforPage.openAddreses(driver);
+	addressPage = UserPageGeneratorManager.getAddressPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'Oder' page ");
+	addressPage.openOderPage(driver);
+	oderPage = UserPageGeneratorManager.getOrderPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'DownloadableProducts' page ");
+	oderPage.openDownloadableProductsPage(driver);
+	downloadableProductsPage = UserPageGeneratorManager.getDownloadableProductsPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'BackInStockSubscriptions' page ");
+	downloadableProductsPage.openBackInStockSubscriptionsPage(driver);
+	backInStockSubscriptionsPage= UserPageGeneratorManager.getBackInStockSubscriptionsPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'RewardPoints' page ");
+	backInStockSubscriptionsPage.openRewardPointsPage(driver);
+	rewardPointsPage = UserPageGeneratorManager.getRewardPointsPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'ChangePassword' page ");
+	rewardPointsPage.openChangePasswordPage(driver);
+	changePasswordPage = UserPageGeneratorManager.getChangePasswordPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'Search' page ");
+	changePasswordPage.openSearchPage(driver);
+	searchPage = UserPageGeneratorManager.getSearchPage(driver);
+	log.info("User_02_Login Step 01:Navigate to 'ShippingAndReturn' page ");
+	searchPage.openShippingAndReturnPage(driver);
+	shippingAndReturnPage = UserPageGeneratorManager.getShippingAndReturnPage(driver);
 }
 @AfterClass 	
 	public void afterClass() {

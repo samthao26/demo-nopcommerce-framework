@@ -197,6 +197,9 @@ public class BasePage {
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).isDisplayed();
 	}
+	public boolean isElementDisPlayed(WebDriver driver, String locatorType, String...dynamicValues) {
+		return getElement(driver, locatorType, dynamicValues).isDisplayed();
+	}
 	
 	public boolean isElementSelected (WebDriver driver, String locator) {
 	   return getWebElement(driver, locator).isSelected();
@@ -220,14 +223,16 @@ public class BasePage {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
 	}
 	public void waitForElementClickable(WebDriver driver, String locator) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));
+		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));	
 	}
 	public void waitForElementClickable(WebDriver driver, String locatorType, String ...dynamicValues) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(getDynamicLocator(locatorType, dynamicValues))));
 	}
+
 	public void waitForElementInvisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locator)));
 	}
+
 	public void waitForElementInvisible(WebDriver driver, String locatorType, String...dynamicValues) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
 		
@@ -257,6 +262,7 @@ public class BasePage {
 		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
 		getSelectItemInDropdownByText(driver,UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME,itemText, dropdownName);
 	}
+
 	public void clickToHeaderLink(WebDriver driver, String headerLink) {
 		waitForElementClickable(driver, UserBasePageUI.DYNAMIC_HEADER_LINK, headerLink);
 		clickToElement(driver, UserBasePageUI.DYNAMIC_HEADER_LINK, headerLink);
@@ -266,7 +272,10 @@ public class BasePage {
 		clickToElement(driver, UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName );
 		
 	}
+	
+	public void  clickToButtonByTextName(WebDriver driver, String buttonTextName) {
+		waitForElementClickable(driver, UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName);
+		clickToElement(driver,UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName);
+	}
+	
 }
-
-
-
