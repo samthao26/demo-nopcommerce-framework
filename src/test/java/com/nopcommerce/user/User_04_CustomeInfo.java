@@ -98,7 +98,8 @@ public class User_04_CustomeInfo extends BaseTest{
 		
 	}
 	@Test
-	public void MyAccount_01_Change_To_Custome_Info() {
+	public void MyAccount_01_Change_Custome_Info() {
+		log.info()
 		
 		
 	}
