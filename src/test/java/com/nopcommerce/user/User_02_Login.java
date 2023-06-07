@@ -6,25 +6,34 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import PageUIs.user.UserBasePageUI;
 import commons.BaseTest;
 import pageObject.user.HomePO;
 import pageObject.user.LoginPO;
 import pageObject.user.RegisterPO;
 import pageObject.user.UserPageGeneratorManager;
+import utilities.DataUtil;
 
 public class User_02_Login extends BaseTest {
 	@Parameters({"browser", "appUrl"})
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
 		driver = getBrowserDriver(browserName, appUrl);
-		emailAdress = generateEmail();
+		
+		fakeData = DataUtil.getData();
+		
+		emailAdress = fakeData.getEmailAddress();
 		invalidEmailAddress = "1234@asdf#!";
 		notRegisteredEmail = "abc" + generateFakeNumber() + ".com";
 		firstName = "Andrea";
 		lastName = "Hull";
-		companyName = "Automation Group";
-		userPassword = "12345678";
+		dateOfBirthDay = "1";
+		dateOfBirthMonth = "March";
+		dateOfBirthYear = "1989";
+		companyName = fakeData.getCompanyName();
+		userPassword = fakeData.getPassword();
 		inCorrectPassword = "123456";
 		
 		log.info("Pre-condition - Step 01: Open Home page");
@@ -34,7 +43,8 @@ public class User_02_Login extends BaseTest {
 		Assert.assertTrue(homePage.isHomePageSliderDispayed());
 		
 		log.info("Pre-condition - Step 03: Click to Register link");
-		registerPage = homePage.clickToRegisterLink();
+		homePage.clickToHeaderLink(driver, "register");
+		registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 		
 		log.info("Pre-condition -Step02: Click to female gender");
 		registerPage.clickToGenderFemaleRadio();
@@ -45,42 +55,42 @@ public class User_02_Login extends BaseTest {
 		log.info("Pre-condition - Step04: Enter to lastName textbox with value: " + lastName);
 		registerPage.inputToTextboxByID(driver,"LastName",lastName);
 		
-		log.info("Pre-condition - Step05: Select to Date Of Birth Day with value: 1 " );
-		registerPage.selectDropdownByName(driver,"DateOfBirthDay","1");
+		log.info("Pre-condition - Step05: Select to Date Of Birth Day with value: " + dateOfBirthDay );
+		registerPage.selectDropdownByName(driver,"DateOfBirthDay", dateOfBirthDay);
 		
-		log.info("Pre-condition - Step06: Select to Date Of Birth Month with value: March " );
-		registerPage.selectDropdownByName(driver,"DateOfBirthMonth","March");
+		log.info("Pre-condition - Step06: Select to Date Of Birth Month with value: " + dateOfBirthMonth );
+		registerPage.selectDropdownByName(driver,"DateOfBirthMonth",dateOfBirthMonth);
 		
-		log.info("Pre-condition - Step07: Select to Date Of Birth Year with value:1989 " );
-		registerPage.selectDropdownByName(driver,"DateOfBirthYear","1989");
+		log.info("Pre-condition - Step07: Select to Date Of Birth Year with value: " + dateOfBirthYear );
+		registerPage.selectDropdownByName(driver,"DateOfBirthYear", dateOfBirthYear);
 		
 		log.info("Pre-condition - Step08: Enter to Email textbox with value: " + emailAdress);
-		registerPage.inputToTextboxByID(driver,"Email",emailAdress);
+		registerPage.inputToTextboxByID(driver, "Email", emailAdress);
 		
-		log.info("Pre-condition - Step 09: Enter to Password textbox with value: " + userPassword);
+		log.info("Pre-condition - Step 09: Enter to company name textbox with value: " + companyName);
 		registerPage.inputToTextboxByID(driver,"Company",companyName);
 		
 		log.info("Pre-condition - Step 10: Enter to Password textbox with value: " + userPassword);
 		registerPage.inputToTextboxByID(driver,"Password",userPassword);
 		
-		log.info("Pre-condition - Step 11: Enter to Confrim Password textbox with value: 3456789 ");
+		log.info("Pre-condition - Step 11: Enter to Confrim Password textbox with value:" + userPassword);
 		registerPage.inputToTextboxByID(driver,"ConfirmPassword", userPassword);
 		
 		log.info("Pre-condition - Step 12: Click to Register button");
-		registerPage.clickToButtonByTextName(driver, "Register");
+		registerPage.clickToButtonByTextName(driver,"Register");
 		
 		log.info("Pre-condition - Step 13: Verify displayed sucess message: 'Your registration completed'");
 		verifyEquals(registerPage.getRegisteredSucessMessage(), "Your registration completed");
 		
 		log.info("Pre-condition - Step 14: Click to log out link");
-		registerPage.clickToLogoutLink();
+		registerPage.clickToHeaderLink(driver, "logout");
 		homePage = UserPageGeneratorManager.getHomePage(driver);
 		
 		log.info("Pre-condition - Step 15: Verify HomePage displayed ");
 		Assert.assertTrue(homePage.isHomePageSliderDispayed());
 		
 		log.info("Pre-condition - Step 16: Click to Login link");
-		homePage.clickToLoginLink();
+		homePage.clickToHeaderLink(driver, "login");
 		loginPage = UserPageGeneratorManager.getLoginPage(driver);
 	}
 		
@@ -178,7 +188,8 @@ public class User_02_Login extends BaseTest {
 	
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
-	String emailAdress, firstName, lastName, companyName, userPassword,invalidEmailAddress, notRegisteredEmail, inCorrectPassword;
+	String emailAdress, firstName, lastName, dateOfBirthDay, dateOfBirthMonth, dateOfBirthYear,companyName, userPassword,invalidEmailAddress, notRegisteredEmail, inCorrectPassword;
+	DataUtil fakeData;
 	HomePO homePage;
 	RegisterPO registerPage;
 	LoginPO loginPage;

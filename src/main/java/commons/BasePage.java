@@ -173,7 +173,7 @@ public class BasePage {
 		new Select(getWebElement(driver, locator)).selectByVisibleText(itemValue);
 	}
 	public void getSelectItemInDropdownByText(WebDriver driver, String locatorType, String itemValue, String...dynamicValues) {
-		new Select(getWebElement(driver, getDynamicLocator(locatorType, dynamicValues))).selectByVisibleText(itemValue);
+		new Select(getElement(driver, getDynamicLocator(locatorType, dynamicValues))).selectByVisibleText(itemValue);
 	}
 	public String getSelectOptionInDropdown(WebDriver driver, String locator) {
 		return new Select(getWebElement(driver, locator)).getFirstSelectedOption().getText();
@@ -214,13 +214,13 @@ public class BasePage {
 		driver.switchTo().defaultContent();
 	}
 	public void waitForElementVisible(WebDriver driver, String locator) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locator)));
+		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(byXpath(locator)));
 	}	
 	public void wiatForListElementVisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElements(getListWebElement(driver, locator)));
 	}
 	public void waitForElementVisible(WebDriver driver, String locatorType, String...dynamicValues) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
+		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(byXpath(getDynamicLocator(locatorType, dynamicValues))));
 	}
 	public void waitForElementClickable(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));	
@@ -235,7 +235,7 @@ public class BasePage {
 	}
 
 	public void waitForElementInvisible(WebDriver driver, String locatorType, String...dynamicValues) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
+		new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementLocated(byXpath(getDynamicXpath(locatorType, dynamicValues))));
 		
 	}
 	public void  waitForListElementInvisible(WebDriver driver, String locator) {
