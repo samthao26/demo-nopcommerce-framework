@@ -10,6 +10,7 @@ import commons.BaseTest;
 import pageObject.user.HomePO;
 import pageObject.user.RegisterPO;
 import pageObject.user.UserPageGeneratorManager;
+import utilities.DataUtil;
 
 public class User_01_Register extends BaseTest {
 	
@@ -17,7 +18,8 @@ public class User_01_Register extends BaseTest {
 @BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
 	driver = getBrowserDriver(browserName, appUrl);
-	emailAdress = generateEmail();
+	fakeData = DataUtil.getData();
+	emailAdress = fakeData.getEmailAddress();
 	invalidEmailAddress = "1234@asdf#!";
 	firstName = "Andrea";
 	lastName = "Hull";
@@ -29,7 +31,8 @@ public class User_01_Register extends BaseTest {
 	
 	log.info("Pre-condition - Step 02: Verify Home page is displayed");
 	Assert.assertTrue(homePage.isHomePageSliderDispayed());
-	homePage.clickToHeaderLink(driver, "Register");
+	log.info("Pre-condition - Step 03: Click to Register link");
+	homePage.clickToHeaderLink(driver, "register");
 	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 	
 }
@@ -143,7 +146,8 @@ public void Register_06_Register_With_Existing_Email() {
 	verifyTrue(homePage.isHomePageSliderDispayed());
 	
 	log.info("Register_06 - Step 03: Click to Register link");
-	registerPage= homePage.clickToRegisterLink();
+	homePage.clickToHeaderLink(driver,"register");
+	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 	
 	log.info("Register_06 - Step04: Enter to firstName textbox with value: " + firstName);
 	registerPage.inputToTextboxByID(driver,"FirstName",firstName);
@@ -158,17 +162,15 @@ public void Register_06_Register_With_Existing_Email() {
 	log.info("Register_06 - Step 07: Enter to Password textbox with value: " + userPassword);
 	registerPage.inputToTextboxByID(driver,"Password",userPassword);
 	
-	log.info("Register_06 - Step 08: Enter to Confrim Password textbox with value: 3456789 ");
+	log.info("Register_06 - Step 08: Enter to Confrim Password textbox with value:" + userPassword);
 	registerPage.inputToTextboxByID(driver,"ConfirmPassword", userPassword);
 	
 	log.info("Register_06 - Step 09: Click to Register button");
 	registerPage.clickToButtonByTextName(driver, "Register");
 	
 	log.info("Register_06 - Step 10: Verify displayed errorr message: 'The specified email already exists'");
-	verifyEquals(registerPage.getErrorMessage(), "The specified email already exists");
-	
+	verifyTrue(registerPage.isErrorMessageForExistingEmailDisplayed());
 }
-
 
 
 
@@ -176,6 +178,7 @@ WebDriver driver;
 String projectPath = System.getProperty("user.dir");
 String emailAdress, firstName, lastName, companyName, userPassword,invalidEmailAddress;
 HomePO homePage; 
+DataUtil fakeData;
 RegisterPO registerPage;
 	
 }

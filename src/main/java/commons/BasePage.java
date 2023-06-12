@@ -164,7 +164,7 @@ public class BasePage {
 		return getWebElement(driver, locator).getText();
 	}
 	public String getTextElement(WebDriver driver, String locatorType, String...dynamicValues) {
-		return getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText();
+		return getElement(driver, getDynamicXpath(locatorType, dynamicValues)).getText();
 	}
 	public void getElementSize(WebDriver driver, String locator) {
 		getListWebElement(driver, locator).size();
@@ -214,7 +214,7 @@ public class BasePage {
 		driver.switchTo().defaultContent();
 	}
 	public void waitForElementVisible(WebDriver driver, String locator) {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(byXpath(locator)));
+		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locator)));
 	}	
 	public void wiatForListElementVisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElements(getListWebElement(driver, locator)));
