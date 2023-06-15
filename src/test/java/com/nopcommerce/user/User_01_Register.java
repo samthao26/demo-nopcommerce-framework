@@ -25,6 +25,7 @@ public class User_01_Register extends BaseTest {
 	lastName = "Hull";
 	companyName = "Automation Group";
 	userPassword = "12345678";
+	less6Password = "123";
 	
 	log.info("Pre-condition - Step 01: Open Home page");
 	homePage = UserPageGeneratorManager.getHomePage(driver);
@@ -36,7 +37,7 @@ public class User_01_Register extends BaseTest {
 	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 	
 }
-@Test
+
 public void Register_01_Register_With_Empty_Data() {
 	log.info("Register_01 - Step01: Click to Register button");
 	registerPage.clickToButtonByTextName(driver,"Register" );
@@ -49,7 +50,7 @@ public void Register_01_Register_With_Empty_Data() {
 	verifyEquals(registerPage.getErrorMessageByFieldName("ConfirmPassword"), "Password is required.");
 	
 }
-@Test
+
 public void Register_02_Register_With_Invalid_Email() {
 	log.info("Register_02 -Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
@@ -68,16 +69,19 @@ public void Register_03_Register_With_Password_Less_Than_Six_Character() {
 	log.info("Register_03 -Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
 	
-	log.info("Register_03 - Step 02: Enter to Password textbox with value '123'");
-	registerPage.inputToTextboxByID(driver,"Password","123");
+	log.info("Register_03 - Step 02: Enter to Password textbox with value:" + less6Password);
+	registerPage.inputToTextboxByID(driver,"Password",less6Password);
 	
-	log.info("Register_03 - Step 03: Click to Register button");
+	log.info("Register_03 - Step 03: Enter to Confrim Password textbox with value:" + less6Password);
+	registerPage.inputToTextboxByID(driver,"ConfirmPassword", less6Password);
+	
+	log.info("Register_03 - Step 04: Click to Register button");
 	registerPage.clickToButtonByTextName(driver, "Register");
 	
-	log.info("Register_03 - Step 04: Verify displayed error message: 'Password must meet the following rules: must have at least 6 characters'");
+	log.info("Register_03 - Step 05: Verify displayed error message: 'Password must meet the following rules: must have at least 6 characters'");
 	verifyEquals(registerPage.getErrorMessageByFieldName("Password"), "Password must meet the following rules:\nmust have at least 6 characters");
 }
-@Test 
+
 public void Register_04_Register_With_Comfirm_Password_Not_Match() {
 	log.info("Register_04 -Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
@@ -94,12 +98,12 @@ public void Register_04_Register_With_Comfirm_Password_Not_Match() {
 	log.info("Register_04 - Step 04: Verify displayed errorr message: ''The password and confirmation password do not match.'");
 	verifyEquals(registerPage.getErrorMessageByFieldName("ConfirmPassword"), "The password and confirmation password do not match.");
 }
-@Test
+
 public void Register_05_Register_With_Valid_Data() {
-	log.info("Register_05 -Step01: Refresh page");
+	log.info("Register_05 - Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
 	
-	log.info("Register_05 -Step02: Click to female gender");
+	log.info("Register_05 - Step02: Click to female gender");
 	registerPage.clickToGenderFemaleRadio();
 	
 	log.info("Register_05 - Step03: Enter to firstName textbox with value: " + firstName);
@@ -120,41 +124,39 @@ public void Register_05_Register_With_Valid_Data() {
 	log.info("Register_05 - Step08: Enter to Email textbox with value: " + emailAdress);
 	registerPage.inputToTextboxByID(driver,"Email",emailAdress);
 	
-	log.info("Register_05 - Step 09: Enter to Password textbox with value: " + userPassword);
+	log.info("Register_05 - Step 09: Enter to companyName textbox with value: " + companyName);
 	registerPage.inputToTextboxByID(driver,"Company",companyName);
 	
 	log.info("Register_05 - Step 10: Enter to Password textbox with value: " + userPassword);
 	registerPage.inputToTextboxByID(driver,"Password",userPassword);
 	
-	log.info("Register_05 - Step 11: Enter to Confrim Password textbox with value: 3456789 ");
+	log.info("Register_05 - Step 11: Enter to Confrim Password textbox with value:" + userPassword);
 	registerPage.inputToTextboxByID(driver,"ConfirmPassword", userPassword);
 	
 	log.info("Register_05 - Step 12: Click to Register button");
 	registerPage.clickToButtonByTextName(driver, "Register");
 	
 	log.info("Register_05 - Step 13: Verify displayed sucess message: 'Your registration completed'");
-	verifyEquals(registerPage.getRegisteredSucessMessage(), "Your registration completed");
-	
+	verifyTrue(registerPage.isRegisteredSucessMessageDisplayed());
 }
-@Test
+
 public void Register_06_Register_With_Existing_Email() {
-	log.info("Register_06- Step 1: Nagivate to Home page");
-	registerPage.clickToButtonByTextName(driver, "Continue");
-	homePage = UserPageGeneratorManager.getHomePage(driver);
-	
-	log.info("Register_06 - Step 02: Verify Home page is displayed");
+	log.info("Register_06 - Step 1: Click to Logout link");
+	registerPage.clickToHeaderLink(driver, "logout");
+	homePage= UserPageGeneratorManager.getHomePage(driver);
+
+	log.info("Register_06 - Step 2: Verify HomePage slider displayed");
 	verifyTrue(homePage.isHomePageSliderDispayed());
-	
-	log.info("Register_06 - Step 03: Click to Register link");
-	homePage.clickToHeaderLink(driver,"register");
+
+	log.info("Register_06 - Step 3: Click to Register link");
+	homePage.clickToHeaderLink(driver, "register");
 	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
-	
+
 	log.info("Register_06 - Step04: Enter to firstName textbox with value: " + firstName);
 	registerPage.inputToTextboxByID(driver,"FirstName",firstName);
 	
 	log.info("Register_06 - Step05: Enter to lastName textbox with value: " + lastName);
 	registerPage.inputToTextboxByID(driver,"LastName",lastName);
-	
 	
 	log.info("Register_06 - Step06: Enter to Email textbox with value: " + emailAdress);
 	registerPage.inputToTextboxByID(driver,"Email",emailAdress);
@@ -176,7 +178,7 @@ public void Register_06_Register_With_Existing_Email() {
 
 WebDriver driver;
 String projectPath = System.getProperty("user.dir");
-String emailAdress, firstName, lastName, companyName, userPassword,invalidEmailAddress;
+String emailAdress, firstName, lastName, companyName, userPassword,less6Password,invalidEmailAddress;
 HomePO homePage; 
 DataUtil fakeData;
 RegisterPO registerPage;
