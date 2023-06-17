@@ -59,52 +59,51 @@ public class User_00_Registation_Login_Nopcommerce extends BaseTest {
 	registerPage.clickToGenderFemaleRadio();
 	
 	log.info("Register - Step 05: Enter to Firstname texbox with value is" + firstName);
-	registerPage.inputToFirstNameTextbox(firstName);
+	registerPage.inputToTextboxByID(driver,"FirstName",firstName);
 	
 	log.info("Register - Step 06: Enter to lastName textbox with value is" + lastName);
-	registerPage.inputToLastNameTextbox(lastName);
+	registerPage.inputToTextboxByID(driver,"LastName",lastName);
 	
 	log.info("Register - Step 07: Select to day of birth dropdown");
-	registerPage.selectDayOfBirthDropdown("1");
+	registerPage.selectDropdownByName(driver,"DateOfBirthDay","1");
 	
 	log.info("Register - Step 08: Select to month of birth dropdown");
-	registerPage.selectMonthOfBirthDropdown("March");
+	registerPage.selectDropdownByName(driver,"DateOfBirthMonth","March");
 	
 	log.info("Register - Step 09: Select to year of birth dropdown");
-	registerPage.selectYearOfBirthDropdown("2000");
+	registerPage.selectDropdownByName(driver,"DateOfBirthYear","1989");
 	
 	log.info("Register - Step 10 : Enter to Email textbox with value is" + emailAdress);
-	registerPage.inputToEmailTextbox(emailAdress);
+	registerPage.inputToTextboxByID(driver,"Email",emailAdress);
 	
 	log.info("Register - Step 11 : Enter to companyName textbox with value is" + companyName);
-	registerPage.inputToCompanyNameTextbox(companyName);
+	registerPage.inputToTextboxByID(driver,"Company",companyName);
 	
 	log.info("Register - Step 12 : Enter to confirm Userpassword textbox with value is" + userPassword);
-	registerPage.inputToPasswordTextbox(userPassword);
+	registerPage.inputToTextboxByID(driver,"Password",userPassword);
 	
-	log.info("Register - Step 13 : Enter to Userpassword textbox with value is" + userPassword);
-	registerPage.inputToConfirmPasswordTextbox(userPassword);
+	log.info("Register - Step 13 : Enter to ConfirmPassword textbox with value is" + userPassword);
+	registerPage.inputToTextboxByID(driver,"ConfirmPassword", userPassword);
 	
 	log.info("Register- Step 14: Click to Register button");
-	registerPage.clickToRegisterButton();
+	registerPage.clickToButtonByTextName(driver, "Register");
 	
 	log.info("Register - Step 15: Verify get registered sucess message");
-	Assert.assertEquals(registerPage.getRegisteredSucessMessage(), "Your registration completed");
+	verifyTrue(registerPage.isRegisteredSucessMessageDisplayed());
 	
-	
-
 }
 @Test
 	public void User_01_Login_To_System() {
 
 	log.info("User_01 - Step 01: Click to 'Register' link ");
-	loginPage = registerPage.clickToLoginLink();
+	homePage.clickToHeaderLink(driver, "register");
+	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 	
-	log.info("User_01 - Step 02: Enter to Email textbox with value is + 'emailAdress'+");
-	loginPage.inputToTextboxByID(driver, "Email", emailAdress);
+	log.info("User_01 - Step02: Enter to Email textbox with value: " + emailAdress);
+	registerPage.inputToTextboxByID(driver,"Email",emailAdress);
 	
-	log.info("User_01 - Step 02: Enter to Email textbox with value is + 'userPassword'+");
-	loginPage.inputToTextboxByID(driver, "Password", userPassword);
+	log.info("User_01 - Step03: Enter to Password textbox with value: " + userPassword);
+	registerPage.inputToTextboxByID(driver,"Password",userPassword);
 	
 	log.info("User_01 - Step 01: Click to 'Login' button ");
 	loginPage.clickToButtonByText(driver, "Log in");  

@@ -153,13 +153,18 @@ public class BasePage {
 		element.sendKeys(keyValueToSend);
 	}
 	public void sendkeyToElement(WebDriver driver, String locatorType, String value, String...dynamicValues) {
-		getElement(driver, locatorType, dynamicValues).clear();
-		getElement(driver, locatorType, dynamicValues).sendKeys(dynamicValues);
+		getElement(driver,getDynamicLocator(locatorType, dynamicValues)).clear();
+		getElement(driver, getDynamicLocator(locatorType, dynamicValues)).sendKeys(value);
 		
 	}
 	public String getAttributeValue(WebDriver driver, String locator, String attribuName) {	
 		return getWebElement(driver, locator).getAttribute(attribuName);
 	}
+	public String getAttributeValue (WebDriver driver, String locatorType, String attributName, String...dynamicValues){
+		return getElement(driver, getDynamicLocator(locatorType, dynamicValues)).getAttribute(attributName);
+		
+	}
+	
 	public String getTextElement(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).getText();
 	}
@@ -177,6 +182,11 @@ public class BasePage {
 	}
 	public String getSelectOptionInDropdown(WebDriver driver, String locator) {
 		return new Select(getWebElement(driver, locator)).getFirstSelectedOption().getText();
+	}
+	public String getSelectOptionInDropdown(WebDriver driver, String locatorType, String...dynamicValues) {
+		return new Select(getElement(driver,getDynamicLocator(locatorType, dynamicValues))).getFirstSelectedOption().getText();
+		
+		
 	}
 	
 	public void sleepInSecond(long timeInSecond) {
@@ -216,7 +226,7 @@ public class BasePage {
 	public void waitForElementVisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locator)));
 	}	
-	public void wiatForListElementVisible(WebDriver driver, String locator) {
+	public void waitForListElementVisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElements(getListWebElement(driver, locator)));
 	}
 	public void waitForElementVisible(WebDriver driver, String locatorType, String...dynamicValues) {
@@ -256,12 +266,17 @@ public class BasePage {
 	}
 	
 	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
+		
 		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
-		sendkeyToElement(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, value,textboxID);
+		sendkeyToElement(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID,value, textboxID);
 	}
 	public void selectDropdownByName(WebDriver driver, String dropdownName, String itemText) {
 		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
 		getSelectItemInDropdownByText(driver,UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME,itemText, dropdownName);
+	}
+	public String getValueselectDropdownByName(WebDriver driver, String dropdownName) {
+		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		return getSelectOptionInDropdown(driver, UserBasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
 	}
 
 	public void clickToHeaderLink(WebDriver driver, String headerLink) {
@@ -277,6 +292,10 @@ public class BasePage {
 	public void  clickToButtonByTextName(WebDriver driver, String buttonTextName) {
 		waitForElementClickable(driver, UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName);
 		clickToElement(driver,UserBasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonTextName);
+	}
+	public String getValueInUserTextboxByID(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		return getAttributeValue(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
 	}
 	
 }

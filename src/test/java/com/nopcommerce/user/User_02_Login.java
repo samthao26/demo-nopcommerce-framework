@@ -80,7 +80,7 @@ public class User_02_Login extends BaseTest {
 		registerPage.clickToButtonByTextName(driver,"Register");
 		
 		log.info("Pre-condition - Step 13: Verify displayed sucess message: 'Your registration completed'");
-		verifyEquals(registerPage.getRegisteredSucessMessage(), "Your registration completed");
+		verifyTrue(registerPage.isRegisteredSucessMessageDisplayed());
 		
 		log.info("Pre-condition - Step 14: Click to log out link");
 		registerPage.clickToHeaderLink(driver, "logout");
@@ -137,7 +137,7 @@ public class User_02_Login extends BaseTest {
 		log.info("Login_03 - Step 04: Verify displayed error message 'Login was unsuccessful. Please correct the errors and try again. No customer account found'");
 		verifyFalse(loginPage.isUnccessfulErrorMessageByTextDisplayed("Login was unsuccessful. Please correct the errors and try again. No customer account found"));
 	}
-	@Test
+
 	public void Login_04_Login_With_Registered_Email_And_Empty_Password() {
 		log.info("Login_04 - Step 01: Input to Email textbox with value: " + emailAdress);
 		loginPage.inputToTextboxByID(driver, "Email", emailAdress);

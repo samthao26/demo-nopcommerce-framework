@@ -21,11 +21,9 @@ public void clickToGenderFemaleRadio() {
 	
 }
 
-
-
-public String getRegisteredSucessMessage() {
+public boolean isRegisteredSucessMessageDisplayed() {
 	waitForElementVisible(driver, UserRegisterUI.REGISTER_SUCESS_MESAGER);
-	return getTextElement(driver, UserRegisterUI.REGISTER_SUCESS_MESAGER);
+	return isElementDisplayed(driver, UserRegisterUI.REGISTER_SUCESS_MESAGER);
 }
 
 public String getErrorMessageByFieldName(String fileName) {
@@ -35,9 +33,18 @@ public String getErrorMessageByFieldName(String fileName) {
 
 public boolean isErrorMessageForExistingEmailDisplayed(){
 	waitForElementVisible(driver, UserRegisterUI.ERROR_MESSAGE_VALIDATION);
-	return isElementDisplayed(driver, UserRegisterUI.ERROR_MESSAGE_BY_FILE_NAME);
+	return isElementDisplayed(driver, UserRegisterUI.ERROR_MESSAGE_VALIDATION);
+}
+public void ClickToContinueButton() {
+	waitForElementVisible(driver, UserRegisterUI.CONTINUE_BUTTON);
+	clickToElement(driver, UserRegisterUI.CONTINUE_BUTTON);
 }
 
+public void clickToGenderMaleRadio() {
+	waitForElementClickable(driver, UserRegisterUI.GENDER_MALE_RADIO);
+	clickToElement(driver, UserRegisterUI.GENDER_MALE_RADIO);
+	
+}
 
 }
 

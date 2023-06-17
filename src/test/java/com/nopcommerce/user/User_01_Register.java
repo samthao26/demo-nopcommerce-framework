@@ -24,8 +24,8 @@ public class User_01_Register extends BaseTest {
 	firstName = "Andrea";
 	lastName = "Hull";
 	companyName = "Automation Group";
-	userPassword = "12345678";
-	less6Password = "123";
+	userPassword = fakeData.getPassword();
+	less6Password = "1";
 	
 	log.info("Pre-condition - Step 01: Open Home page");
 	homePage = UserPageGeneratorManager.getHomePage(driver);
@@ -37,7 +37,7 @@ public class User_01_Register extends BaseTest {
 	registerPage= UserPageGeneratorManager.getRegisterPage(driver);
 	
 }
-
+@Test
 public void Register_01_Register_With_Empty_Data() {
 	log.info("Register_01 - Step01: Click to Register button");
 	registerPage.clickToButtonByTextName(driver,"Register" );
@@ -50,7 +50,7 @@ public void Register_01_Register_With_Empty_Data() {
 	verifyEquals(registerPage.getErrorMessageByFieldName("ConfirmPassword"), "Password is required.");
 	
 }
-
+@Test
 public void Register_02_Register_With_Invalid_Email() {
 	log.info("Register_02 -Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
@@ -66,14 +66,9 @@ public void Register_02_Register_With_Invalid_Email() {
 }
 @Test
 public void Register_03_Register_With_Password_Less_Than_Six_Character() {
-	log.info("Register_03 -Step01: Refresh page");
-	registerPage.refreshCurrentPage(driver);
 	
-	log.info("Register_03 - Step 02: Enter to Password textbox with value:" + less6Password);
-	registerPage.inputToTextboxByID(driver,"Password",less6Password);
-	
-	log.info("Register_03 - Step 03: Enter to Confrim Password textbox with value:" + less6Password);
-	registerPage.inputToTextboxByID(driver,"ConfirmPassword", less6Password);
+	log.info("Register_03 - Step 02: Enter to Password textbox with value:" + less6Password );
+	registerPage.inputToTextboxByID(driver, "Password", less6Password);
 	
 	log.info("Register_03 - Step 04: Click to Register button");
 	registerPage.clickToButtonByTextName(driver, "Register");
@@ -81,7 +76,7 @@ public void Register_03_Register_With_Password_Less_Than_Six_Character() {
 	log.info("Register_03 - Step 05: Verify displayed error message: 'Password must meet the following rules: must have at least 6 characters'");
 	verifyEquals(registerPage.getErrorMessageByFieldName("Password"), "Password must meet the following rules:\nmust have at least 6 characters");
 }
-
+@Test
 public void Register_04_Register_With_Comfirm_Password_Not_Match() {
 	log.info("Register_04 -Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
@@ -98,7 +93,7 @@ public void Register_04_Register_With_Comfirm_Password_Not_Match() {
 	log.info("Register_04 - Step 04: Verify displayed errorr message: ''The password and confirmation password do not match.'");
 	verifyEquals(registerPage.getErrorMessageByFieldName("ConfirmPassword"), "The password and confirmation password do not match.");
 }
-
+@Test
 public void Register_05_Register_With_Valid_Data() {
 	log.info("Register_05 - Step01: Refresh page");
 	registerPage.refreshCurrentPage(driver);
@@ -139,14 +134,18 @@ public void Register_05_Register_With_Valid_Data() {
 	log.info("Register_05 - Step 13: Verify displayed sucess message: 'Your registration completed'");
 	verifyTrue(registerPage.isRegisteredSucessMessageDisplayed());
 }
-
+@Test
 public void Register_06_Register_With_Existing_Email() {
-	log.info("Register_06 - Step 1: Click to Logout link");
-	registerPage.clickToHeaderLink(driver, "logout");
+	log.info("Register_06 - Step 1: Click to contiune button");
+	registerPage.ClickToContinueButton();
 	homePage= UserPageGeneratorManager.getHomePage(driver);
 
 	log.info("Register_06 - Step 2: Verify HomePage slider displayed");
 	verifyTrue(homePage.isHomePageSliderDispayed());
+	
+	//log.info("Register_03 - Step 09: Click to Logout link");
+//	registerPage.clickToHeaderLink(driver, "logout");
+//	homePage = UserPageGeneratorManager.getHomePage(driver);
 
 	log.info("Register_06 - Step 3: Click to Register link");
 	homePage.clickToHeaderLink(driver, "register");

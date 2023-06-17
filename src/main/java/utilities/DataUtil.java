@@ -60,6 +60,10 @@ public class DataUtil {
 	public String getPassword() {
 		return faker.internet().password();
 	}
+	public String getEditPassword() {
+		return faker.internet().password();
+	}
+	
 	
 	
 
