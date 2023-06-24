@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageUIs.user.UserBasePageUI;
 import pageObject.user.HomePO;
+import pageObject.user.UserPageGeneratorManager;
 
 public class BasePage {
 	public BasePage() {
@@ -232,6 +233,10 @@ public class BasePage {
 	public void waitForElementVisible(WebDriver driver, String locatorType, String...dynamicValues) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfElementLocated(byXpath(getDynamicLocator(locatorType, dynamicValues))));
 	}
+	public void waitForAllElementVisible(WebDriver driver, String locatorType, String ...dynamicValues) {
+		new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(byXpath(getDynamicLocator(locatorType, dynamicValues))));
+		
+	}
 	public void waitForElementClickable(WebDriver driver, String locator) {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(getByLocator(locator)));	
 	}
@@ -296,6 +301,20 @@ public class BasePage {
 	public String getValueInUserTextboxByID(WebDriver driver, String textboxID) {
 		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
 		return getAttributeValue(driver, UserBasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+	}
+	public boolean isPageTitleByTextDisplayed(WebDriver driver, String titlePage) {
+		waitForElementVisible(driver, UserBasePageUI.DYNAMIC_PAGE_TITLE_BY_TEXT, titlePage);
+		return isElementDisPlayed(driver, UserBasePageUI.DYNAMIC_PAGE_TITLE_BY_TEXT, titlePage);
+	}
+	public void openSiderBarPageByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, UserBasePageUI.DYNAMIC_SIDERBAR_BY_NAME, pageName);
+		clickToElement(driver, UserBasePageUI.DYNAMIC_SIDERBAR_BY_NAME, pageName);
+		
+	}
+	public boolean isInforDisplayedByName(WebDriver driver, String fileName, String textValue) {
+		waitForAllElementVisible(driver, UserBasePageUI.DYNAMIC_INFOR_BY_FILE_NAME, fileName,textValue);
+		return isElementDisPlayed(driver, UserBasePageUI.DYNAMIC_INFOR_BY_FILE_NAME, fileName, textValue);
+		
 	}
 	
 }
